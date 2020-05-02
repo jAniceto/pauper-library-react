@@ -1,0 +1,6 @@
+.cardImage {
+    display: inline-block;
+    position: absolute;
+    z-index: 10;
+    left: 150px;
+}

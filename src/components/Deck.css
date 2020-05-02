@@ -1,0 +1,18 @@
+.card-body {
+    font-size: 0.95rem;
+}
+
+.table td {
+    padding-top: 0;
+    padding-bottom: 0;
+    white-space: nowrap;
+}
+
+.table td span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.table td.manaCost {
+    text-align: right;
+}
