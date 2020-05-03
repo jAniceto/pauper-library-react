@@ -16,3 +16,7 @@
 .table td.manaCost {
     text-align: right;
 }
+
+.table td.bestPrice {
+    text-align: right;
+}

@@ -28,39 +28,99 @@ class Deck extends React.Component {
     const sideboard = this.props.stats.sideboard.map((card, index) => 
       <CardRow key={index} cardInfo={card} />
     );
+
+    // Deck colors
+    let colors;
+    if (this.props.stats.color) {
+      colors = this.props.stats.color.map((color, index) => 
+        <i key={index} className={"ms ms-cost ms-" + color}></i>
+      );
+    } else {
+      colors = '';
+    }
+
+    // Tags
+    const tagsList = this.props.stats.tags;
+    // console.log(tagsList);
+    const tags = tagsList.map((tag, index) => 
+      <span key={index}><kbd>{tag}</kbd> </span>
+    );
+
+    // Stats
+    const totalCardsMainboard = this.props.stats.mainboard.map(
+      card => parseInt(card['quantity'])
+    ).reduce((a, b) => a + b, 0);
+
+    const totalCardsSideboard = this.props.stats.sideboard.map(
+      card => parseInt(card['quantity'])
+    ).reduce((a, b) => a + b, 0);
     
     return (
-      <div className="Deck mt-3">
+      <div className="Deck mt-5">
         <Card>
-          <Card.Header as="h1">{this.props.stats.name}</Card.Header>
+          <Card.Header as="h1">
+            <Row>
+              <Col md={8}>
+                {this.props.stats.name}
+              </Col>
+              <Col md={4}>
+                <div className="float-right d-none d-lg-block">
+                    {colors} 
+                </div>
+              </Col>
+            </Row>
+
+            
+          </Card.Header>
           <Card.Body>
             <Row>
               <Col md={4}>
-                <Table borderless size="sm">
+                <Table borderless size="sm" className="mb-0">
                   <tbody>
                     {col1Mainboard}
                   </tbody>
                 </Table>
               </Col>
+
               <Col md={4}>
                 <Table borderless size="sm">
                   <tbody>
                     {remainingMainboard}
                   </tbody>
                 </Table>
-                <h5 className="card-title">Sideboard:</h5>
+                <h6 className="card-title">Sideboard ({totalCardsSideboard}):</h6>
                 <Table borderless size="sm">
                   <tbody>
                     {sideboard}
                   </tbody>
                 </Table>
               </Col>
+
               <Col md={4}>
-                <Button variant="outline-dark" block>Dark</Button>
+                <Table borderless size="sm">
+                  <tbody>
+                    <tr>
+                      <td>Price:</td>
+                      <td className="text-right">{this.props.stats.price}</td>
+                    </tr>
+                    <tr>
+                      <td>Total cards:</td>
+                      <td className="text-right">{totalCardsMainboard + totalCardsSideboard} ({totalCardsMainboard} + {totalCardsSideboard})</td>
+                    </tr>
+                    <tr>
+                      <td>Source:</td>
+                      <td className="text-right"><a href={this.props.stats.source[1]} target="_blank">{this.props.stats.source[0]}</a></td>
+                    </tr>
+                  </tbody>
+                </Table>
+                <Button variant="outline-dark" block>Download</Button>
                 
               </Col>
             </Row>
           </Card.Body>
+          <Card.Footer className="text-muted">
+            Tags: {tags}
+          </Card.Footer>
         </Card>
       </div>
     );

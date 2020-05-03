@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Magicthe-Gathering';
+    src: local('Magicthe-Gathering'), 
+    url(./fonts/Magicthe-Gathering/Magicthe-Gathering.ttf.woff) format('woff'),
+    url(./fonts/Magicthe-Gathering/Magicthe-Gathering.ttf.svg) format('svg'),
+    url(./fonts/Magicthe-Gathering/Magicthe-Gathering.ttf.eot);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mplantin';
+    src: local('mplantin'), 
+    url(./fonts/mplantin.woff) format('woff'),
+    url(./fonts/mplantin.svg) format('svg'),
+    url(./fonts/mplantin.ttf) format('truetype'),
+    url(./fonts/mplantin.eot);
+}

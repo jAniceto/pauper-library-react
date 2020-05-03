@@ -27,12 +27,19 @@ class CardRow extends React.Component {
 
     return (
       <tr>
-        <td>{ this.props.cardInfo['quantity'] }</td>
+        <td>
+          { this.props.cardInfo['quantity'] }
+        </td>
         <td onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHover}>
           <span data-image={ this.props.cardInfo['image_uris']['normal'] }>{ this.props.cardInfo['card_name'] }</span>
           {this.state.hover ? cardImage : ''}
         </td>
-        <td className="manaCost">{ getManaHTML(this.props.cardInfo['mana_cost']).map((symbol) => symbol) }</td>
+        <td className="manaCost">
+          { getManaHTML(this.props.cardInfo['mana_cost']).map((symbol) => symbol) }
+        </td>
+        <td className="bestPrice">
+          {this.props.cardInfo['is_land'] ? "" : this.props.cardInfo['best_price'][1]}
+        </td>
       </tr>
     );
   }
