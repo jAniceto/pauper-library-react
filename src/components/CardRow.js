@@ -25,6 +25,19 @@ class CardRow extends React.Component {
       </div>
     );
 
+    const card_price = () => {
+      if (this.props.cardInfo['is_land']) {
+        return "";
+      } else {
+        try {
+          return this.props.cardInfo['best_price'][1];
+        }
+        catch(err) {
+          return "";
+        }
+      }
+    }
+
     return (
       <tr>
         <td>
@@ -38,7 +51,7 @@ class CardRow extends React.Component {
           { getManaHTML(this.props.cardInfo['mana_cost']).map((symbol) => symbol) }
         </td>
         <td className="bestPrice">
-          {this.props.cardInfo['is_land'] ? "" : this.props.cardInfo['best_price'][1]}
+          {card_price()}
         </td>
       </tr>
     );

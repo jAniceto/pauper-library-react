@@ -10,10 +10,12 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "bootstrap": "^4.4.1",
+    "plotly.js": "^1.54.0",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
     "react-dom": "^16.13.1",
     "react-infinite-scroller": "^1.2.4",
+    "react-plotly.js": "^2.4.0",
     "react-scripts": "3.4.1"
   },
   "scripts": {

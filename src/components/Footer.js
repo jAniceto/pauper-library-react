@@ -16,7 +16,10 @@ class Footer extends React.Component {
           <Row>
             <Col>
               <span className="text-muted">
-                Created by <a href="https://www.reddit.com/message/compose/?to=Synergix" target="_blank">u/Synergix</a>
+                Created by 
+                <a href="https://www.reddit.com/message/compose/?to=Synergix" target="_blank" rel="noopener noreferrer">
+                  u/Synergix
+                </a>
               </span>
             </Col>
           </Row>

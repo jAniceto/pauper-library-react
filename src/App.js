@@ -24,7 +24,7 @@ class App extends React.Component {
       <Deck key={deck.name} stats={deck} />
     );
 
-    console.log(this.decks[0]);
+    // console.log(this.decks[0]);
 
     return (
       <div className="App">

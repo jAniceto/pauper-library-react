@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Table from 'react-bootstrap/Table';
 import Button from 'react-bootstrap/Button';
 import CardRow from './CardRow';
+// import CMCPlot from './CMCPlot';
 import './Deck.css';
 import '../css/mana.css';
 
@@ -109,10 +110,13 @@ class Deck extends React.Component {
                     </tr>
                     <tr>
                       <td>Source:</td>
-                      <td className="text-right"><a href={this.props.stats.source[1]} target="_blank">{this.props.stats.source[0]}</a></td>
+                      <td className="text-right"><a href={this.props.stats.source[1]} target="_blank" rel="noopener noreferrer">{this.props.stats.source[0]}</a></td>
                     </tr>
                   </tbody>
                 </Table>
+
+                {/* <CMCPlot /> */}
+
                 <Button variant="outline-dark" block>Download</Button>
                 
               </Col>
