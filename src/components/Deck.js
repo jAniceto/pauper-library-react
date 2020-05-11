@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Table from 'react-bootstrap/Table';
 import Button from 'react-bootstrap/Button';
 import CardRow from './CardRow';
-// import CMCPlot from './CMCPlot';
+import CMCPlot from './CMCPlot';
 import './Deck.css';
 import '../css/mana.css';
 
@@ -115,7 +115,7 @@ class Deck extends React.Component {
                   </tbody>
                 </Table>
 
-                {/* <CMCPlot /> */}
+                <CMCPlot mainboardData={this.props.stats.mainboard} />
 
                 <Button variant="outline-dark" block>Download</Button>
                 

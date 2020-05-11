@@ -16,19 +16,19 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.decks = decks;
+    this.decksPerSet = 10;
     this.state = {
-      decks: this.decks.slice(0, 19), 
+      decks: this.decks.slice(0, this.decksPerSet - 1), 
       hasMoreDecks: true
     }
   }
 
   loadItems(page) {
-    const decksPerSet = 10;
     let currentDeckNumber = this.state.decks.length;
-    let newDeckSet = this.decks.slice(currentDeckNumber, currentDeckNumber + decksPerSet);
+    let newDeckSet = this.decks.slice(currentDeckNumber, currentDeckNumber + this.decksPerSet);
     let decks = [...this.state.decks, ...newDeckSet];
 
-    if ((currentDeckNumber + decksPerSet) >= this.decks.length) {
+    if ((currentDeckNumber + this.decksPerSet) >= this.decks.length) {
       this.setState({
         decks: decks,
         hasMoreDecks: false
