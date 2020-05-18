@@ -3,6 +3,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
 import Spinner from 'react-bootstrap/Spinner';
 import InfiniteScroll from 'react-infinite-scroller';
+
+// import { library } from '@fortawesome/fontawesome-svg-core'
+// import { search } from '@fortawesome/free-solid-svg-icons'
+// library.add(search)
+
 import './App.css';
 import Deck from './components/Deck';
 import Header from './components/Header';
@@ -83,6 +88,15 @@ class App extends React.Component {
     }
   }
 
+  handleFilterReset(data) {
+    this.setState({
+      filterOptionAllDecks: data.allColors,
+      filteredDecks: this.decks,
+      decks: decks.slice(0, this.decksPerSet - 1),
+      selectedColors: []
+    });
+  }
+
   render() {
     const loader = (
       <div className="mt-5 text-center">
@@ -101,7 +115,10 @@ class App extends React.Component {
         <Header />
 
         <Container>
-          <FilterSection handleFilterSubmit={(data) => this.handleFilterSubmit(data)} />
+          <FilterSection 
+            handleFilterSubmit={(data) => this.handleFilterSubmit(data)} 
+            handleFilterReset={(data) => this.handleFilterReset(data)}
+          />
 
           <InfiniteScroll
             pageStart={0}

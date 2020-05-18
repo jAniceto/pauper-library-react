@@ -2,15 +2,17 @@ import React from 'react';
 import Accordion from 'react-bootstrap/Accordion';
 import Card from 'react-bootstrap/Card';
 import Form from 'react-bootstrap/Form'
-// import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSearch, faAngleUp, faAngleDown } from '@fortawesome/free-solid-svg-icons';
 
 
 class FilterSection extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
+      filterSectionExpanded: true,
       colors: {
         "w": false,
         "u": false,
@@ -23,9 +25,17 @@ class FilterSection extends React.Component {
       allColorsLabel: "Contains at lest one of the selected colors"
     };
 
+    this.handleFilterExpand = this.handleFilterExpand.bind(this);
     this.handleChangeColor = this.handleChangeColor.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
     this.handleColorSwitch = this.handleColorSwitch.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
+    this.handleResetButton = this.handleResetButton.bind(this);
+  }
+
+  handleFilterExpand(event) {
+    this.setState({
+      filterSectionExpanded: !this.state.filterSectionExpanded
+    });
   }
 
   handleChangeColor(event) {
@@ -58,14 +68,37 @@ class FilterSection extends React.Component {
     }
   }
 
+  handleResetButton(event) {
+    this.setState({
+      colors: {
+        "w": false,
+        "u": false,
+        "b": false,
+        "r": false,
+        "g": false,
+        "c": false
+      },
+      allColors: false,
+      allColorsLabel: "Contains at lest one of the selected colors"
+    }, this.props.handleFilterReset(this.state));
+  }
+
   render() {
     const colors = ['w', 'u', 'b', 'r', 'g', 'c'];
+
+    // Filter section header
+    let filterSectionHeader;
+    if (this.state.filterSectionExpanded) {
+      filterSectionHeader = <div><FontAwesomeIcon icon={faAngleUp} /> Filter Decks <FontAwesomeIcon icon={faAngleUp} /></div>;
+    } else {
+      filterSectionHeader = <div><FontAwesomeIcon icon={faAngleDown} /> Filter Decks <FontAwesomeIcon icon={faAngleDown} /></div>;
+    }
 
     return (
       <Accordion defaultActiveKey="0" className="mt-5">
         <Card className="">
-          <Accordion.Toggle as={Card.Header} eventKey="0">
-            Filter Decks
+          <Accordion.Toggle as={Card.Header} eventKey="0" className="text-center" onClick={this.handleFilterExpand} style={{cursor: 'pointer'}}>
+            {filterSectionHeader}
           </Accordion.Toggle>
           <Accordion.Collapse eventKey="0">
             <Card.Body>
@@ -128,14 +161,30 @@ class FilterSection extends React.Component {
                   id="anyAllSwitch"
                   type="switch" 
                   name="anyAll"
+                  checked={this.state.allColors}
                   label={this.state.allColorsLabel} 
                   onChange={this.handleColorSwitch}
                 />
               </Form.Group>
 
-              <Button variant="dark" type="submit" className="w-100" onClick={this.handleSubmit}>
-                Filter!
-              </Button>
+              <Form.Row>
+                {/* <Form.Group as={Col} column="md" md={8} controlId="formGridButtons"> */}
+                <Col md="10" className="mb-1 mb-md-0">
+                  <Button variant="dark" type="submit" className="w-100" onClick={this.handleSubmit}>
+                    <FontAwesomeIcon icon={faSearch} /> Filter!
+                  </Button>
+                </Col>
+                {/* </Form.Group> */}
+
+                {/* <Form.Group as={Col} column="md" md={8} controlId="formGridButtons"> */}
+                <Col md="2" className="mb-1 mb-md-0">
+                  <Button variant="outline-dark" className="w-100" onClick={this.handleResetButton}>
+                    Reset filters
+                  </Button>
+                </Col>
+                {/* </Form.Group> */}
+              </Form.Row>
+
             </Form>
 
             </Card.Body>
