@@ -3,10 +3,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
 import Spinner from 'react-bootstrap/Spinner';
 import InfiniteScroll from 'react-infinite-scroller';
-
 import './App.css';
 import Deck from './components/Deck';
 import Header from './components/Header';
+import FilterSection from './components/FilterSection';
 import Footer from './components/Footer';
 import decks from './data/decks.json'
 
@@ -18,17 +18,20 @@ class App extends React.Component {
     this.decks = decks;
     this.decksPerSet = 10;
     this.state = {
+      filteredDecks: this.decks,
       decks: this.decks.slice(0, this.decksPerSet - 1), 
-      hasMoreDecks: true
+      hasMoreDecks: true,
+      selectedColors: [],
+      filterOptionAllDecks: false,
     }
   }
 
   loadItems(page) {
     let currentDeckNumber = this.state.decks.length;
-    let newDeckSet = this.decks.slice(currentDeckNumber, currentDeckNumber + this.decksPerSet);
+    let newDeckSet = this.state.filteredDecks.slice(currentDeckNumber, currentDeckNumber + this.decksPerSet);
     let decks = [...this.state.decks, ...newDeckSet];
 
-    if ((currentDeckNumber + this.decksPerSet) >= this.decks.length) {
+    if ((currentDeckNumber + this.decksPerSet) >= this.state.filteredDecks.length) {
       this.setState({
         decks: decks,
         hasMoreDecks: false
@@ -37,6 +40,46 @@ class App extends React.Component {
       this.setState({
         decks: decks
       })
+    }
+  }
+
+  decksToShow() {
+    if (this.state.filterOptionAllDecks) {
+      const filteredDecks = decks.filter(deck => this.state.selectedColors.every((val) => deck.color.includes(val)));
+      this.setState({
+        filteredDecks: filteredDecks,
+        decks: filteredDecks.slice(0, this.decksPerSet - 1)
+      })
+    } else {    
+      const filteredDecks = this.decks.filter(deck => deck.color.some((val) => this.state.selectedColors.indexOf(val) !== -1));
+      this.setState({
+        filteredDecks: filteredDecks,
+        decks: filteredDecks.slice(0, this.decksPerSet - 1)
+      });
+    }
+  }
+
+  handleFilterSubmit(data) {
+    this.setState({
+      filterOptionAllDecks: data.allColors
+    });
+    
+    let selectedColors = [];
+    for (const [ key, value ] of Object.entries(data.colors)) {
+      if (data.colors[key]) {
+        selectedColors.push(key);
+      }
+    }
+    if (selectedColors && selectedColors.length) {
+      this.setState({
+        selectedColors: selectedColors
+      }, this.decksToShow);
+    } else {
+      this.setState({
+        filteredDecks: this.decks,
+        decks: this.decks.slice(0, this.decksPerSet - 1),
+        selectedColors: []
+      });
     }
   }
 
@@ -58,7 +101,7 @@ class App extends React.Component {
         <Header />
 
         <Container>
-          {/* {deckCards} */}
+          <FilterSection handleFilterSubmit={(data) => this.handleFilterSubmit(data)} />
 
           <InfiniteScroll
             pageStart={0}

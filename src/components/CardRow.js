@@ -2,6 +2,7 @@ import React from 'react';
 import './CardRow.css';
 import '../css/mana.css';
 import {getManaHTML} from '../utils/mana.js'
+// import Button from 'react-bootstrap/Button';
 
 
 class CardRow extends React.Component {
