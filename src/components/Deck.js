@@ -6,6 +6,7 @@ import Table from 'react-bootstrap/Table';
 import Button from 'react-bootstrap/Button';
 import CardRow from './CardRow';
 import CMCPlot from './CMCPlot';
+import DeckDownload from './DeckDownload';
 import './Deck.css';
 import '../css/mana.css';
 
@@ -117,7 +118,11 @@ class Deck extends React.Component {
 
                 <CMCPlot mainboardData={this.props.stats.mainboard} />
 
-                <Button variant="outline-dark" block>Download</Button>
+                <DeckDownload 
+                  deckName={this.props.stats.name}
+                  mainboard={this.props.stats.mainboard} 
+                  sideboard={this.props.stats.sideboard} 
+                />
                 
               </Col>
             </Row>
