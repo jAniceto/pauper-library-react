@@ -4,6 +4,9 @@ import Card from 'react-bootstrap/Card';
 import Form from 'react-bootstrap/Form'
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
+import { getDeckFamilies, getFamiliesSymbolsHTML } from '../utils/families.js';
+import { getManaHTML } from '../utils/mana.js'
+import { capitalizeString } from '../utils/capitalize.js';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch, faAngleUp, faAngleDown } from '@fortawesome/free-solid-svg-icons';
 
@@ -22,12 +25,14 @@ class FilterSection extends React.Component {
         "c": false
       },
       allColors: false,
-      allColorsLabel: "Contains at lest one of the selected colors"
+      allColorsLabel: "Contains at lest one of the selected colors",
+      family: "none"
     };
 
     this.handleFilterExpand = this.handleFilterExpand.bind(this);
     this.handleChangeColor = this.handleChangeColor.bind(this);
     this.handleColorSwitch = this.handleColorSwitch.bind(this);
+    this.handleSelectChange = this.handleSelectChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
     this.handleResetButton = this.handleResetButton.bind(this);
   }
@@ -48,12 +53,6 @@ class FilterSection extends React.Component {
     });
   }
 
-  handleSubmit(event) {
-    event.preventDefault();
-    // console.log(this.state.colors);
-    this.props.handleFilterSubmit(this.state);
-  }
-
   handleColorSwitch(event) {
     if (this.state.allColors) {
       this.setState({
@@ -68,6 +67,18 @@ class FilterSection extends React.Component {
     }
   }
 
+  handleSelectChange(event) {
+    this.setState({ 
+      family: event.target.value
+     });
+  };
+
+  handleSubmit(event) {
+    event.preventDefault();
+    // console.log(this.state.colors);
+    this.props.handleFilterSubmit(this.state);
+  }
+  
   handleResetButton(event) {
     this.setState({
       colors: {
@@ -79,7 +90,8 @@ class FilterSection extends React.Component {
         "c": false
       },
       allColors: false,
-      allColorsLabel: "Contains at lest one of the selected colors"
+      allColorsLabel: "Contains at lest one of the selected colors",
+      family: "none"
     }, this.props.handleFilterReset(this.state));
   }
 
@@ -122,22 +134,28 @@ class FilterSection extends React.Component {
               </Form.Group> */}
 
               <Form.Row>
-                <Form.Group as={Col} controlId="formGridCity">
-                  <Form.Label>City</Form.Label>
+                <Form.Group as={Col} controlId="formGridCardName">
+                  <Form.Label>Card name</Form.Label>
                   <Form.Control />
                 </Form.Group>
 
-                <Form.Group as={Col} controlId="formGridState">
-                  <Form.Label>State</Form.Label>
-                  <Form.Control as="select" value="Choose...">
-                    <option>Choose...</option>
-                    <option>...</option>
+                <Form.Group as={Col} controlId="formGridFamily">
+                  <Form.Label>Deck Family</Form.Label>
+                  <Form.Control as="select" onChange={this.handleSelectChange} value={this.state.family}>
+                    <option value="none">
+                      Choose...
+                    </option>
+                    {getDeckFamilies().map((family, index) =>
+                      <option key={family} value={family}>
+                        {capitalizeString(family)}
+                      </option>
+                    )}
                   </Form.Control>
                 </Form.Group>
 
-                <Form.Group as={Col} controlId="formGridZip">
-                  <Form.Label>Zip</Form.Label>
-                  <Form.Control />
+                <Form.Group as={Col} controlId="formGridCardName">
+                  {/* <Form.Label>Card name</Form.Label>
+                  <Form.Control /> */}
                 </Form.Group>
               </Form.Row>
 

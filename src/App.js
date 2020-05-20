@@ -28,6 +28,7 @@ class App extends React.Component {
       hasMoreDecks: true,
       selectedColors: [],
       filterOptionAllDecks: false,
+      selectedFamily: "none"
     }
   }
 
@@ -48,7 +49,7 @@ class App extends React.Component {
     }
   }
 
-  decksToShow() {
+  filterDecksByColor() {
     if (this.state.filterOptionAllDecks) {
       const filteredDecks = decks.filter(deck => this.state.selectedColors.every((val) => deck.color.includes(val)));
       this.setState({
@@ -62,6 +63,14 @@ class App extends React.Component {
         decks: filteredDecks.slice(0, this.decksPerSet - 1)
       });
     }
+  }
+
+  filterDecksByFamily() {
+    const filteredDecks = this.decks.filter(deck => deck.family === this.state.selectedFamily);
+    this.setState({
+      filteredDecks: filteredDecks,
+      decks: filteredDecks.slice(0, this.decksPerSet - 1)
+    })
   }
 
   handleFilterSubmit(data) {
@@ -78,13 +87,21 @@ class App extends React.Component {
     if (selectedColors && selectedColors.length) {
       this.setState({
         selectedColors: selectedColors
-      }, this.decksToShow);
+      }, this.filterDecksByColor);
     } else {
       this.setState({
         filteredDecks: this.decks,
         decks: this.decks.slice(0, this.decksPerSet - 1),
         selectedColors: []
       });
+    }
+
+    if (data.family != "none") {
+      this.setState({
+        filteredDecks: this.decks,
+        decks: this.decks.slice(0, this.decksPerSet - 1),
+        selectedFamily: data.family
+      }, this.filterDecksByFamily);
     }
   }
 
@@ -93,7 +110,8 @@ class App extends React.Component {
       filterOptionAllDecks: data.allColors,
       filteredDecks: this.decks,
       decks: decks.slice(0, this.decksPerSet - 1),
-      selectedColors: []
+      selectedColors: [],
+      selectedFamily: "none"
     });
   }
 
