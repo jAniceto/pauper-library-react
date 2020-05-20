@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/pauper-library-react/static/css/main.4d1db67c.chunk.css",
-    "main.js": "/pauper-library-react/static/js/main.5c3e4bc8.chunk.js",
-    "main.js.map": "/pauper-library-react/static/js/main.5c3e4bc8.chunk.js.map",
+    "main.js": "/pauper-library-react/static/js/main.51ff9d68.chunk.js",
+    "main.js.map": "/pauper-library-react/static/js/main.51ff9d68.chunk.js.map",
     "runtime-main.js": "/pauper-library-react/static/js/runtime-main.31d1ce63.js",
     "runtime-main.js.map": "/pauper-library-react/static/js/runtime-main.31d1ce63.js.map",
     "static/css/2.69121389.chunk.css": "/pauper-library-react/static/css/2.69121389.chunk.css",
-    "static/js/2.6d19ad97.chunk.js": "/pauper-library-react/static/js/2.6d19ad97.chunk.js",
-    "static/js/2.6d19ad97.chunk.js.map": "/pauper-library-react/static/js/2.6d19ad97.chunk.js.map",
+    "static/js/2.e6c3b84f.chunk.js": "/pauper-library-react/static/js/2.e6c3b84f.chunk.js",
+    "static/js/2.e6c3b84f.chunk.js.map": "/pauper-library-react/static/js/2.e6c3b84f.chunk.js.map",
     "index.html": "/pauper-library-react/index.html",
-    "precache-manifest.5dc55a735b73ae73f6517956d6cfc814.js": "/pauper-library-react/precache-manifest.5dc55a735b73ae73f6517956d6cfc814.js",
+    "precache-manifest.fc5a93304aa032e3a1d98362d987a342.js": "/pauper-library-react/precache-manifest.fc5a93304aa032e3a1d98362d987a342.js",
     "service-worker.js": "/pauper-library-react/service-worker.js",
     "static/css/2.69121389.chunk.css.map": "/pauper-library-react/static/css/2.69121389.chunk.css.map",
     "static/css/main.4d1db67c.chunk.css.map": "/pauper-library-react/static/css/main.4d1db67c.chunk.css.map",
-    "static/js/2.6d19ad97.chunk.js.LICENSE.txt": "/pauper-library-react/static/js/2.6d19ad97.chunk.js.LICENSE.txt",
+    "static/js/2.e6c3b84f.chunk.js.LICENSE.txt": "/pauper-library-react/static/js/2.e6c3b84f.chunk.js.LICENSE.txt",
     "static/media/App.css": "/pauper-library-react/static/media/mplantin.daf8b76b.eot",
     "static/media/mana.css": "/pauper-library-react/static/media/mana.6f03111d.eot"
   },
   "entrypoints": [
     "static/js/runtime-main.31d1ce63.js",
     "static/css/2.69121389.chunk.css",
-    "static/js/2.6d19ad97.chunk.js",
+    "static/js/2.e6c3b84f.chunk.js",
     "static/css/main.4d1db67c.chunk.css",
-    "static/js/main.5c3e4bc8.chunk.js"
+    "static/js/main.51ff9d68.chunk.js"
   ]
 }
