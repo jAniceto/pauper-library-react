@@ -28,7 +28,8 @@ class App extends React.Component {
       hasMoreDecks: true,
       selectedColors: [],
       filterOptionAllDecks: false,
-      selectedFamily: "none"
+      selectedFamily: "none",
+      inputDeckName: ""
     }
   }
 
@@ -47,6 +48,33 @@ class App extends React.Component {
         decks: decks
       })
     }
+  }
+
+  filterDecksByName() {
+    const nameList = this.state.inputDeckName.toLowerCase().split(" ");
+    const filteredDecks = decks.filter(deck => nameList.every((val) => deck.name.toLowerCase().includes(val)));
+    this.setState({
+      filteredDecks: filteredDecks,
+      decks: filteredDecks.slice(0, this.decksPerSet - 1)
+    })
+  }
+
+  filterDecksByTag() {
+    const tagList = this.state.inputTag.toLowerCase().split(" ");
+    const filteredDecks = decks.filter(deck => tagList.every((val) => deck.tags.includes(val)));
+    this.setState({
+      filteredDecks: filteredDecks,
+      decks: filteredDecks.slice(0, this.decksPerSet - 1)
+    })
+  }
+
+  filterDecksByCard() {
+    const cardName = this.state.inputCard.toLowerCase();
+    const filteredDecks = decks.filter(deck => deck.mainboard.some(card => card.card_name.toLowerCase() === cardName));
+    this.setState({
+      filteredDecks: filteredDecks,
+      decks: filteredDecks.slice(0, this.decksPerSet - 1)
+    })
   }
 
   filterDecksByColor() {
@@ -102,6 +130,30 @@ class App extends React.Component {
         decks: this.decks.slice(0, this.decksPerSet - 1),
         selectedFamily: data.family
       }, this.filterDecksByFamily);
+    }
+
+    if (data.deckName != "") {
+      this.setState({
+        filteredDecks: this.decks,
+        decks: this.decks.slice(0, this.decksPerSet - 1),
+        inputDeckName: data.deckName
+      }, this.filterDecksByName);
+    }
+
+    if (data.tag != "") {
+      this.setState({
+        filteredDecks: this.decks,
+        decks: this.decks.slice(0, this.decksPerSet - 1),
+        inputTag: data.tag
+      }, this.filterDecksByTag);
+    }
+
+    if (data.card != "") {
+      this.setState({
+        filteredDecks: this.decks,
+        decks: this.decks.slice(0, this.decksPerSet - 1),
+        inputCard: data.card
+      }, this.filterDecksByCard);
     }
   }
 
