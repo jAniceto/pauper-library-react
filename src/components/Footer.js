@@ -2,8 +2,6 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-// import Navbar from 'react-bootstrap/Navbar';
-// import Nav from 'react-bootstrap/Nav';
 // import './Footer.css';
 
 
@@ -16,10 +14,7 @@ class Footer extends React.Component {
           <Row>
             <Col>
               <span className="text-muted">
-                Created by 
-                <a href="https://www.reddit.com/message/compose/?to=Synergix" target="_blank" rel="noopener noreferrer">
-                  u/Synergix
-                </a>
+                Created by <a href="https://www.reddit.com/message/compose/?to=Synergix" target="_blank" rel="noopener noreferrer">u/Synergix</a>
               </span>
             </Col>
           </Row>

@@ -117,30 +117,25 @@ class FilterSection extends React.Component {
               
             <Form onSubmit={this.handleSubmit}>
               <Form.Row>
-                <Form.Group as={Col} controlId="formGridName">
-                  <Form.Label>Name</Form.Label>
-                  <Form.Control type="text" placeholder="burn" />
+                <Form.Group as={Col} md={6} controlId="formGridName">
+                  <Form.Label>By Deck Name</Form.Label>
+                  <Form.Control type="text" placeholder="Stompy" />
                 </Form.Group>
 
-                <Form.Group as={Col} controlId="formGridTag">
-                  <Form.Label>Tag</Form.Label>
-                  <Form.Control type="text" placeholder="aggro" />
+                <Form.Group as={Col} md={6} controlId="formGridTag">
+                  <Form.Label>By Tag</Form.Label>
+                  <Form.Control type="text" placeholder="Mill" />
                 </Form.Group>
               </Form.Row>
 
-              {/* <Form.Group controlId="formGridAddress1">
-                <Form.Label>Address</Form.Label>
-                <Form.Control placeholder="1234 Main St" />
-              </Form.Group> */}
-
               <Form.Row>
-                <Form.Group as={Col} controlId="formGridCardName">
-                  <Form.Label>Card name</Form.Label>
-                  <Form.Control />
+                <Form.Group as={Col} md={6} controlId="formGridCardName">
+                  <Form.Label>By Card</Form.Label>
+                  <Form.Control type="text" placeholder="Rancor" />
                 </Form.Group>
 
-                <Form.Group as={Col} controlId="formGridFamily">
-                  <Form.Label>Deck Family</Form.Label>
+                <Form.Group as={Col} md={6} controlId="formGridFamily">
+                  <Form.Label>By Guild/Shard/Clan</Form.Label>
                   <Form.Control as="select" onChange={this.handleSelectChange} value={this.state.family}>
                     <option value="none">
                       Choose...
@@ -153,14 +148,10 @@ class FilterSection extends React.Component {
                   </Form.Control>
                 </Form.Group>
 
-                <Form.Group as={Col} controlId="formGridCardName">
-                  {/* <Form.Label>Card name</Form.Label>
-                  <Form.Control /> */}
-                </Form.Group>
               </Form.Row>
 
               <Form.Group id="colorCheckboxes">
-                <Form.Label className="pr-md-5 d-none d-md-block">Color:</Form.Label>
+                <Form.Label className="pr-md-5 d-none d-md-block">By Color</Form.Label>
                 {colors.map((color, index) => (
                   <Form.Check custom inline
                     key={index} 
@@ -186,21 +177,17 @@ class FilterSection extends React.Component {
               </Form.Group>
 
               <Form.Row>
-                {/* <Form.Group as={Col} column="md" md={8} controlId="formGridButtons"> */}
                 <Col md="10" className="mb-1 mb-md-0">
                   <Button variant="dark" type="submit" className="w-100" onClick={this.handleSubmit}>
                     <FontAwesomeIcon icon={faSearch} /> Filter!
                   </Button>
                 </Col>
-                {/* </Form.Group> */}
 
-                {/* <Form.Group as={Col} column="md" md={8} controlId="formGridButtons"> */}
                 <Col md="2" className="mb-1 mb-md-0">
                   <Button variant="outline-dark" className="w-100" onClick={this.handleResetButton}>
                     Reset filters
                   </Button>
                 </Col>
-                {/* </Form.Group> */}
               </Form.Row>
 
             </Form>
