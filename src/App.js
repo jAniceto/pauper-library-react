@@ -26,10 +26,12 @@ class App extends React.Component {
       filteredDecks: this.decks,
       decks: this.decks.slice(0, this.decksPerSet - 1), 
       hasMoreDecks: true,
+      inputDeckName: "",
+      inputTag: "",
+      inputCard: "",
+      selectedFamily: "none",
       selectedColors: [],
       filterOptionAllDecks: false,
-      selectedFamily: "none",
-      inputDeckName: ""
     }
   }
 
@@ -50,51 +52,42 @@ class App extends React.Component {
     }
   }
 
-  filterDecksByName() {
-    const nameList = this.state.inputDeckName.toLowerCase().split(" ");
-    const filteredDecks = decks.filter(deck => nameList.every((val) => deck.name.toLowerCase().includes(val)));
-    this.setState({
-      filteredDecks: filteredDecks,
-      decks: filteredDecks.slice(0, this.decksPerSet - 1)
-    })
-  }
+  filterDecks() {
+    // Run all filters sequentially
+    let filteredDecks = decks;
 
-  filterDecksByTag() {
-    const tagList = this.state.inputTag.toLowerCase().split(" ");
-    const filteredDecks = decks.filter(deck => tagList.every((val) => deck.tags.includes(val)));
-    this.setState({
-      filteredDecks: filteredDecks,
-      decks: filteredDecks.slice(0, this.decksPerSet - 1)
-    })
-  }
-
-  filterDecksByCard() {
-    const cardName = this.state.inputCard.toLowerCase();
-    const filteredDecks = decks.filter(deck => deck.mainboard.some(card => card.card_name.toLowerCase() === cardName));
-    this.setState({
-      filteredDecks: filteredDecks,
-      decks: filteredDecks.slice(0, this.decksPerSet - 1)
-    })
-  }
-
-  filterDecksByColor() {
-    if (this.state.filterOptionAllDecks) {
-      const filteredDecks = decks.filter(deck => this.state.selectedColors.every((val) => deck.color.includes(val)));
-      this.setState({
-        filteredDecks: filteredDecks,
-        decks: filteredDecks.slice(0, this.decksPerSet - 1)
-      })
-    } else {    
-      const filteredDecks = this.decks.filter(deck => deck.color.some((val) => this.state.selectedColors.indexOf(val) !== -1));
-      this.setState({
-        filteredDecks: filteredDecks,
-        decks: filteredDecks.slice(0, this.decksPerSet - 1)
-      });
+    // Filter by deck name
+    if (this.state.inputDeckName != "") {
+      const nameList = this.state.inputDeckName.toLowerCase().split(" ");
+      filteredDecks = filteredDecks.filter(deck => nameList.every((val) => deck.name.toLowerCase().includes(val)));
     }
-  }
 
-  filterDecksByFamily() {
-    const filteredDecks = this.decks.filter(deck => deck.family === this.state.selectedFamily);
+    // Filter by tag
+    if (this.state.inputTag != "") {
+      const tagList = this.state.inputTag.toLowerCase().split(" ");
+      filteredDecks = filteredDecks.filter(deck => tagList.every((val) => deck.tags.includes(val)));
+    }
+
+    // Filter by card
+    if (this.state.inputCard != "") {
+      const cardName = this.state.inputCard.toLowerCase();
+      filteredDecks = filteredDecks.filter(deck => deck.mainboard.some(card => card.card_name.toLowerCase() === cardName));
+    }
+    
+    // Filter by family
+    if (this.state.selectedFamily != "none") {
+      filteredDecks = filteredDecks.filter(deck => deck.family === this.state.selectedFamily);
+    }
+
+    // Filter by colors
+    if (this.state.selectedColors && this.state.selectedColors.length) {
+      if (this.state.filterOptionAllDecks) {
+        filteredDecks = filteredDecks.filter(deck => this.state.selectedColors.every((val) => deck.color.includes(val)));
+      } else {    
+        filteredDecks = filteredDecks.filter(deck => deck.color.some((val) => this.state.selectedColors.indexOf(val) !== -1));
+      }
+    }
+
     this.setState({
       filteredDecks: filteredDecks,
       decks: filteredDecks.slice(0, this.decksPerSet - 1)
@@ -102,68 +95,36 @@ class App extends React.Component {
   }
 
   handleFilterSubmit(data) {
-    this.setState({
-      filterOptionAllDecks: data.allColors
-    });
-    
+    // Create a list of color codes from the colors dict
     let selectedColors = [];
     for (const [ key, value ] of Object.entries(data.colors)) {
       if (data.colors[key]) {
         selectedColors.push(key);
       }
     }
-    if (selectedColors && selectedColors.length) {
-      this.setState({
-        selectedColors: selectedColors
-      }, this.filterDecksByColor);
-    } else {
-      this.setState({
-        filteredDecks: this.decks,
-        decks: this.decks.slice(0, this.decksPerSet - 1),
-        selectedColors: []
-      });
-    }
-
-    if (data.family != "none") {
-      this.setState({
-        filteredDecks: this.decks,
-        decks: this.decks.slice(0, this.decksPerSet - 1),
-        selectedFamily: data.family
-      }, this.filterDecksByFamily);
-    }
-
-    if (data.deckName != "") {
-      this.setState({
-        filteredDecks: this.decks,
-        decks: this.decks.slice(0, this.decksPerSet - 1),
-        inputDeckName: data.deckName
-      }, this.filterDecksByName);
-    }
-
-    if (data.tag != "") {
-      this.setState({
-        filteredDecks: this.decks,
-        decks: this.decks.slice(0, this.decksPerSet - 1),
-        inputTag: data.tag
-      }, this.filterDecksByTag);
-    }
-
-    if (data.card != "") {
-      this.setState({
-        filteredDecks: this.decks,
-        decks: this.decks.slice(0, this.decksPerSet - 1),
-        inputCard: data.card
-      }, this.filterDecksByCard);
-    }
+    // Update state and run filters
+    this.setState({
+      filterOptionAllDecks: data.allColors,
+      selectedColors: selectedColors,
+      selectedFamily: data.family,
+      inputDeckName: data.deckName,
+      inputTag: data.tag,
+      inputCard: data.card
+    }, this.filterDecks);
   }
 
   handleFilterReset(data) {
+    // Reset all filters (reset state)
     this.setState({
       filterOptionAllDecks: data.allColors,
       filteredDecks: this.decks,
       decks: decks.slice(0, this.decksPerSet - 1),
+      inputDeckName: "",
+      inputTag: "",
+      inputCard: "",
+      selectedFamily: "none",
       selectedColors: [],
-      selectedFamily: "none"
+      filterOptionAllDecks: false,
     });
   }
 

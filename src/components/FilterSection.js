@@ -5,7 +5,7 @@ import Form from 'react-bootstrap/Form'
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import { getDeckFamilies, getFamiliesSymbolsHTML } from '../utils/families.js';
-import { getManaHTML } from '../utils/mana.js'
+import { getManaHTML } from '../utils/mana.js';
 import { capitalizeString } from '../utils/capitalize.js';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch, faAngleUp, faAngleDown } from '@fortawesome/free-solid-svg-icons';
