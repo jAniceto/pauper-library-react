@@ -1,6 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
+import Modal from 'react-bootstrap/Modal';
 import Spinner from 'react-bootstrap/Spinner';
 import InfiniteScroll from 'react-infinite-scroller';
 
@@ -32,7 +33,12 @@ class App extends React.Component {
       selectedFamily: "none",
       selectedColors: [],
       filterOptionAllDecks: false,
+      showCardImageModal: false,
+      cardImage: ""
     }
+
+    this.handleCardClick = this.handleCardClick.bind(this);
+    this.handleCardModalClose = this.handleCardModalClose.bind(this);
   }
 
   loadItems(page) {
@@ -128,6 +134,23 @@ class App extends React.Component {
     });
   }
 
+  handleCardClick(data) {
+    // If on small screen, show modal
+    if (window.innerWidth < 768) {
+      this.setState({
+        showCardImageModal: !this.state.showCardImageModal ,
+        cardImage: data['image_uris']['normal']
+      });
+    }
+  }
+
+  handleCardModalClose() {
+    // Function to turn off modal
+    this.setState({
+      showCardImageModal: false
+    });
+  }
+
   render() {
     const loader = (
       <div className="mt-5 text-center">
@@ -138,12 +161,37 @@ class App extends React.Component {
     );
 
     const deckCards = this.state.decks.map((deck, index) => 
-      <Deck key={deck.name} stats={deck} />
+      <Deck 
+        key={deck.name} 
+        stats={deck} 
+        handleCardClick={this.handleCardClick}
+      />
     );
 
     return (
       <div className="App">
         <Header />
+
+        <Modal
+          className="d-md-none"
+          show={this.state.showCardImageModal}
+          onHide={this.handleCardModalClose}
+          size="lg"
+          aria-labelledby="contained-modal-title-vcenter"
+          centered
+        >
+          <Modal.Header closeButton>
+          </Modal.Header>
+          <Modal.Body>
+          <img 
+            className="img-fluid" 
+            height="310" 
+            src={this.state.cardImage} 
+            alt="Card image"
+          />
+          </Modal.Body>
+        </Modal>
+
 
         <Container>
           <FilterSection 

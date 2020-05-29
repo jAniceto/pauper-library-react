@@ -12,6 +12,12 @@ class CardRow extends React.Component {
     this.state = {
       hover: false
     }
+
+    this.handleCardClick = this.handleCardClick.bind(this);
+  }
+
+  handleCardClick(event) {
+    this.props.handleCardClick(this.props.cardInfo);
   }
 
   render() {
@@ -45,8 +51,8 @@ class CardRow extends React.Component {
           { this.props.cardInfo['quantity'] }
         </td>
         <td onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHover}>
-          <span data-image={ this.props.cardInfo['image_uris']['normal'] }>{ this.props.cardInfo['card_name'] }</span>
-          {this.state.hover ? cardImage : ''}
+          <span onClick={this.handleCardClick} data-image={ this.props.cardInfo['image_uris']['normal'] }>{ this.props.cardInfo['card_name'] }</span>
+          {this.state.hover && (window.innerWidth >= 768) ? cardImage : ''}
         </td>
         <td className="manaCost">
           { getManaHTML(this.props.cardInfo['mana_cost']).map((symbol) => symbol) }

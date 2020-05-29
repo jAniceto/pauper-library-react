@@ -22,7 +22,11 @@ class Deck extends React.Component {
     const remainingMainboardCards = this.props.stats.mainboard.slice(nCol1Cards);
     // Create HTML for mainboard (col 1), mainboard (col 2), and sideboard
     const col1Mainboard = col1MainboardCards.map((card, index) => 
-      <CardRow key={index} cardInfo={card} />
+      <CardRow 
+        key={index} 
+        cardInfo={card} 
+        handleCardClick={this.props.handleCardClick}
+      />
     );
     const remainingMainboard = remainingMainboardCards.map((card, index) => 
       <CardRow key={index} cardInfo={card} />
