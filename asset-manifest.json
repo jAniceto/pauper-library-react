@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/pauper-library-react/static/css/main.4d1db67c.chunk.css",
-    "main.js": "/pauper-library-react/static/js/main.b5752cd3.chunk.js",
-    "main.js.map": "/pauper-library-react/static/js/main.b5752cd3.chunk.js.map",
+    "main.css": "/pauper-library-react/static/css/main.5353e030.chunk.css",
+    "main.js": "/pauper-library-react/static/js/main.fb611afb.chunk.js",
+    "main.js.map": "/pauper-library-react/static/js/main.fb611afb.chunk.js.map",
     "runtime-main.js": "/pauper-library-react/static/js/runtime-main.31d1ce63.js",
     "runtime-main.js.map": "/pauper-library-react/static/js/runtime-main.31d1ce63.js.map",
     "static/css/2.69121389.chunk.css": "/pauper-library-react/static/css/2.69121389.chunk.css",
-    "static/js/2.a152e290.chunk.js": "/pauper-library-react/static/js/2.a152e290.chunk.js",
-    "static/js/2.a152e290.chunk.js.map": "/pauper-library-react/static/js/2.a152e290.chunk.js.map",
+    "static/js/2.2d2e751e.chunk.js": "/pauper-library-react/static/js/2.2d2e751e.chunk.js",
+    "static/js/2.2d2e751e.chunk.js.map": "/pauper-library-react/static/js/2.2d2e751e.chunk.js.map",
     "index.html": "/pauper-library-react/index.html",
-    "precache-manifest.49de337544906234bc2446137f993417.js": "/pauper-library-react/precache-manifest.49de337544906234bc2446137f993417.js",
+    "precache-manifest.553113544e4880b377e3b5b3dd286dd1.js": "/pauper-library-react/precache-manifest.553113544e4880b377e3b5b3dd286dd1.js",
     "service-worker.js": "/pauper-library-react/service-worker.js",
     "static/css/2.69121389.chunk.css.map": "/pauper-library-react/static/css/2.69121389.chunk.css.map",
-    "static/css/main.4d1db67c.chunk.css.map": "/pauper-library-react/static/css/main.4d1db67c.chunk.css.map",
-    "static/js/2.a152e290.chunk.js.LICENSE.txt": "/pauper-library-react/static/js/2.a152e290.chunk.js.LICENSE.txt",
+    "static/css/main.5353e030.chunk.css.map": "/pauper-library-react/static/css/main.5353e030.chunk.css.map",
+    "static/js/2.2d2e751e.chunk.js.LICENSE.txt": "/pauper-library-react/static/js/2.2d2e751e.chunk.js.LICENSE.txt",
     "static/media/App.css": "/pauper-library-react/static/media/mplantin.daf8b76b.eot",
     "static/media/logo-transparent.svg": "/pauper-library-react/static/media/logo-transparent.7dc23d48.svg",
     "static/media/mana.css": "/pauper-library-react/static/media/mana.6f03111d.eot",
@@ -22,8 +22,8 @@
   "entrypoints": [
     "static/js/runtime-main.31d1ce63.js",
     "static/css/2.69121389.chunk.css",
-    "static/js/2.a152e290.chunk.js",
-    "static/css/main.4d1db67c.chunk.css",
-    "static/js/main.b5752cd3.chunk.js"
+    "static/js/2.2d2e751e.chunk.js",
+    "static/css/main.5353e030.chunk.css",
+    "static/js/main.fb611afb.chunk.js"
   ]
 }
