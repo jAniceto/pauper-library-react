@@ -5,10 +5,6 @@ import Modal from 'react-bootstrap/Modal';
 import Spinner from 'react-bootstrap/Spinner';
 import InfiniteScroll from 'react-infinite-scroller';
 
-// import { library } from '@fortawesome/fontawesome-svg-core'
-// import { search } from '@fortawesome/free-solid-svg-icons'
-// library.add(search)
-
 import './App.css';
 import Deck from './components/Deck';
 import Header from './components/Header';

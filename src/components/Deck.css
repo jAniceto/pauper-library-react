@@ -20,3 +20,9 @@
 .table td.bestPrice {
     text-align: right;
 }
+
+@media (max-width: 991.98px) { 
+    .card-header-text {
+        font-size: 2.2rem;
+    }
+}

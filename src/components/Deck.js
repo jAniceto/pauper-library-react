@@ -64,7 +64,7 @@ class Deck extends React.Component {
     return (
       <div className="Deck mt-5">
         <Card>
-          <Card.Header as="h1">
+          <Card.Header as="h1" className="card-header-text">
             <Row>
               <Col md={8}>
                 {this.props.stats.name}
@@ -107,13 +107,14 @@ class Deck extends React.Component {
                   <tbody>
                     <tr>
                       <td>Price:</td>
-                      <td className="text-right">{this.props.stats.price}</td>
+                      <td className="text-right">{this.props.stats.price} tix</td>
                     </tr>
                     <tr>
                       <td>Total cards:</td>
                       <td className="text-right">{totalCardsMainboard + totalCardsSideboard} ({totalCardsMainboard} + {totalCardsSideboard})</td>
                     </tr>
-                    <tr>
+
+                    <tr className={this.props.stats.source[0] ? "": "d-none"}>
                       <td>Source:</td>
                       <td className="text-right"><a href={this.props.stats.source[1]} target="_blank" rel="noopener noreferrer">{this.props.stats.source[0]}</a></td>
                     </tr>

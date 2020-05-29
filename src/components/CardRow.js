@@ -47,7 +47,7 @@ class CardRow extends React.Component {
 
     return (
       <tr>
-        <td>
+        <td className="fit">
           { this.props.cardInfo['quantity'] }
         </td>
         <td onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHover}>
@@ -57,7 +57,7 @@ class CardRow extends React.Component {
         <td className="manaCost">
           { getManaHTML(this.props.cardInfo['mana_cost']).map((symbol) => symbol) }
         </td>
-        <td className="bestPrice">
+        <td className="bestPrice fit">
           {card_price()}
         </td>
       </tr>

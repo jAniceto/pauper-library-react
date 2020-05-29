@@ -25,7 +25,7 @@ class FilterSection extends React.Component {
         "c": false
       },
       allColors: false,
-      allColorsLabel: "Contains at least one of the selected colors",
+      allColorsLabel: "At least one of the selected colors",
       family: "none",
       deckName: "",
       tag: "",
@@ -81,12 +81,12 @@ class FilterSection extends React.Component {
     if (this.state.allColors) {
       this.setState({
         allColors: false,
-        allColorsLabel: "Contains at least one of the selected colors"
+        allColorsLabel: "At least one of the selected colors"
       });
     } else {
       this.setState({
         allColors: true,
-        allColorsLabel: "Contains all of the selected colors"
+        allColorsLabel: "All of the selected colors"
       });
     }
   }
@@ -114,7 +114,7 @@ class FilterSection extends React.Component {
         "c": false
       },
       allColors: false,
-      allColorsLabel: "Contains at least one of the selected colors",
+      allColorsLabel: "At least one of the selected colors",
       family: "none",
       deckName: "",
       tag: "",
