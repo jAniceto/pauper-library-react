@@ -29,10 +29,18 @@ class Deck extends React.Component {
       />
     );
     const remainingMainboard = remainingMainboardCards.map((card, index) => 
-      <CardRow key={index} cardInfo={card} />
+      <CardRow 
+        key={index} 
+        cardInfo={card} 
+        handleCardClick={this.props.handleCardClick}
+      />
     );
     const sideboard = this.props.stats.sideboard.map((card, index) => 
-      <CardRow key={index} cardInfo={card} />
+      <CardRow 
+        key={index} 
+        cardInfo={card} 
+        handleCardClick={this.props.handleCardClick}
+      />
     );
 
     // Deck colors
