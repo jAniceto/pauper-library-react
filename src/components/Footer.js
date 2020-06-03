@@ -1,23 +1,22 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-// import './Footer.css';
 
 
 class Footer extends React.Component {
 
   render() {
+    var footerStyles = {
+        "position": "absolute",
+        "bottom": "0",
+        "width": "100%",
+        "height": "60px",
+        "line-height": "60px",
+        "background-color": "#f5f5f5"
+    }
     return (
-      <footer className="footer mt-5 pt-3 pb-3 bg-light">
+      <footer class="footer" style={footerStyles}>
         <Container>
-          <Row>
-            <Col>
-              <span className="text-muted">
-                Created by <a href="https://www.reddit.com/message/compose/?to=Synergix" target="_blank" rel="noopener noreferrer">u/Synergix</a>
-              </span>
-            </Col>
-          </Row>
+          <span class="text-muted">Created by <a href="https://www.reddit.com/message/compose/?to=Synergix" target="_blank">u/Synergix</a></span>
         </Container>
       </footer>
     )
