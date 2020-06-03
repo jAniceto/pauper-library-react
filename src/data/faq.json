@@ -1,0 +1,24 @@
+[
+    {
+        "q": "What is the Pauper Deck Library?",
+        "a": "This site is a curated list of Pauper decks create with the Magic Online card pool in mind. I always thought the MTGO interface wasn't very helpful for browsing decks, especially when you have a large number of decks. I built this mostly for myself so apologies if it's not super polished."
+    },{
+        "q": "How are deck prices calculated?",
+        "a": "Prices are calculated using data from <a href='https://scryfall.com' target='_blank'>Scryfall</a>. The cheapest reprint found for each card is used for the calculation."
+    },{
+        "q": "When are the decks or deck prices updated?",
+        "a": "Prices are updated occasionally. Decklists are added or updated whenever I get around to it and under no specific schedule. The date shown for each decklist provides an indication of when the deck was last updated."
+    },{
+        "q": "Why no Paper Pauper cards/decklists?",
+        "a": "I currently play exclusively in Magic Online, as such all decks are based on the MTGO card pool."
+    },{
+        "q": "How do I contribute to the website?",
+        "a": "Sure. Use the form on the <a href='https://forms.gle/oD6FDZNVqd7MLWqq5' target='_blank'>Suggest Decklist link</a> to suggest new decks or updates to existing decklists. I'll update the site as soon as possible."
+    },{
+        "q": "How do I get in touch?",
+        "a": "If you have a comment, suggestion or would like to report a bug feel free to message me via <a href='https://www.reddit.com/message/compose/?to=Synergix' target='_blank'>Reddit</a>."
+    },{
+        "q": "How is this site built?",
+        "a": "All card info and card images obtained from <a href='https://scryfall.com' target='_blank'>Scryfall</a>. Site was built using <a href='https://reactjs.org/' target='_blank'>ReactJS</a> and <a href='https://getbootstrap.com/' target='_blank'>Bootstrap</a>. The main libraries used where: <a href='https://github.com/danbovey/react-infinite-scroller#readme' target='_blank'>React Infinite Scroller</a>, <a href='https://react-bootstrap.github.io/' target='_blank'>React Bootstrap</a>, <a href='https://reacttraining.com/react-router/' target='_blank'>React Router</a> and <a href='https://recharts.org/en-US/' target='_blank'>Recharts</a>. It is hosted on Github Pages."
+    }
+]
