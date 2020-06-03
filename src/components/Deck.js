@@ -3,7 +3,6 @@ import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Table from 'react-bootstrap/Table';
-import Button from 'react-bootstrap/Button';
 import CardRow from './CardRow';
 import CMCPlot from './CMCPlot';
 import DeckDownload from './DeckDownload';

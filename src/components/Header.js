@@ -1,7 +1,8 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
-// import Nav from 'react-bootstrap/Nav';
+import Nav from 'react-bootstrap/Nav';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import logo from '../logo-transparent.svg';
 import logoBig from '../pauper-library-logo-white.png';
@@ -17,7 +18,7 @@ class Header extends React.Component {
       <header>
         <Navbar expand="lg" bg="dark" variant="dark">
           <Container>
-            <Navbar.Brand href="#home">
+            <Navbar.Brand as={Link} to="/">
             <img
               alt="logo"
               src={logo}
@@ -27,11 +28,10 @@ class Header extends React.Component {
             />{' '}
             Pauper Deck Library
           </Navbar.Brand>
-            {/* <Nav className="mr-auto">
-              <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#features">Features</Nav.Link>
-              <Nav.Link href="#pricing">Pricing</Nav.Link>
-            </Nav> */}
+            <Nav className="ml-auto">
+              <Nav.Link as={Link} to="/random">Randomize</Nav.Link>
+              <Nav.Link as={Link} to="/about">About</Nav.Link>
+            </Nav>
           </Container>
         </Navbar>
 
