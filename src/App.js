@@ -14,6 +14,7 @@ import {
 
 import './App.css';
 import DeckShowcase from './pages';
+import DeckIndex from './pages/deck-index';
 import AboutPage from './pages/about';
 import RandomDeckPage from './pages/random';
 import PageNotFound from './pages/404';
@@ -31,6 +32,9 @@ class App extends React.Component {
         <Switch>
           <Route exact path="/">
             <DeckShowcase />
+          </Route>
+          <Route exact path="/deck-index">
+            <DeckIndex />
           </Route>
           <Route exact path="/about">
             <AboutPage />
