@@ -46,7 +46,8 @@ export default function Table() {
       {
         Header: 'Colors',
         accessor: 'color',
-        sortType: 'basic'
+        // sortType: 'basic',
+        disableSortBy: true
       },{
         Header: 'Price (tix)',
         accessor: 'price',

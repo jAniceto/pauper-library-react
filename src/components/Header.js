@@ -25,7 +25,7 @@ class Header extends React.Component {
             Pauper Deck Library
           </Navbar.Brand>
             <Nav className="ml-auto">
-              <Nav.Link as={Link} to="/">Decks</Nav.Link>
+              {/* <Nav.Link as={Link} to="/">Decks</Nav.Link> */}
               <Nav.Link as={Link} to="/deck-index">Index</Nav.Link>
               <Nav.Link as={Link} to="/random">Randomize</Nav.Link>
               <Nav.Link as={Link} to="/about">About</Nav.Link>

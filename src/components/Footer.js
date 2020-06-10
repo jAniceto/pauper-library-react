@@ -16,7 +16,7 @@ class Footer extends React.Component {
     return (
       <footer class="footer" style={footerStyles}>
         <Container>
-          <span class="text-muted">A curated database of Pauper Decks. Created by <a href="https://www.reddit.com/message/compose/?to=Synergix" target="_blank">u/Synergix</a>.</span>
+          <span class="text-muted">Created by <a href="https://www.reddit.com/message/compose/?to=Synergix" target="_blank">u/Synergix</a>.</span>
         </Container>
       </footer>
     )
