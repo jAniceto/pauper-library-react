@@ -5,7 +5,7 @@ import React from 'react';
 // import Spinner from 'react-bootstrap/Spinner';
 // import InfiniteScroll from 'react-infinite-scroller';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,  // previously: BrowserRouter as Router
   Route,
   Switch,
   Link,
