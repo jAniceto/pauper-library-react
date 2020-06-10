@@ -9,7 +9,8 @@ import {
   Route,
   Switch,
   Link,
-  Redirect
+  Redirect,
+  useParams
 } from 'react-router-dom';
 
 import './App.css';
@@ -17,12 +18,14 @@ import DeckShowcase from './pages';
 import DeckIndex from './pages/deck-index';
 import AboutPage from './pages/about';
 import RandomDeckPage from './pages/random';
+import DeckPage from './pages/deck-detail';
 import PageNotFound from './pages/404';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
 
 class App extends React.Component {
+  
 
   render() {
     return (<>
@@ -42,6 +45,9 @@ class App extends React.Component {
           <Route exact path="/random">
             <RandomDeckPage />
           </Route>
+          <Route path="/deck/:deckName">
+            <DeckPage />
+          </Route>  
           <Route exact path="/404">
             <PageNotFound />
           </Route>

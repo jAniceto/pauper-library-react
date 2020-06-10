@@ -3,6 +3,8 @@ import decks from '../data/decks.json';
 import { useTable, useSortBy } from 'react-table';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSortUp, faSortDown, faSort } from '@fortawesome/free-solid-svg-icons';
+import { Link } from "react-router-dom";
+
 
 export default function Table() {
   function colorsHTML(colorList) {
@@ -38,7 +40,8 @@ export default function Table() {
       {
         Header: 'Deck name',
         accessor: 'name', // accessor is the "key" in the data
-        sortType: 'basic'
+        sortType: 'basic',
+        Cell: e => <Link to={`/deck/${e.value.toLowerCase()}`}>{e.value}</Link>
       },
       {
         Header: 'Colors',
@@ -75,6 +78,10 @@ export default function Table() {
     Render the UI for your table
     - react-table doesn't have UI, it's headless. We just need to put the react-table props from the Hooks, and it will do its magic automatically
   */
+  
+  function name(params) {
+    
+  }
 
   return (
     <table className="table table-hover mt-3" {...getTableProps()}>
@@ -101,6 +108,12 @@ export default function Table() {
                 {row.cells.map(cell => {
                   return <td {...cell.getCellProps()}>{cell.render('Cell')}</td>
                 })}
+                {/* <td {...row.cells[0].getCellProps()}>
+                  <Link to={row.cells[0].toLowerCase().replace(" ", "-")}>{row.cells[0].render('Cell')}</Link>
+                </td>
+                <td {...row.cells[1].getCellProps()}>{row.cells[1].render('Cell')}</td>
+                <td {...row.cells[2].getCellProps()}>{row.cells[2].render('Cell')}</td>
+                <td {...row.cells[3].getCellProps()}>{row.cells[3].render('Cell')}</td> */}
               </tr>
             )}
         )}

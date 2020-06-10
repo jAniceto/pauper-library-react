@@ -3,6 +3,7 @@ import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Table from 'react-bootstrap/Table';
+import Button from 'react-bootstrap/Button';
 import CardRow from './CardRow';
 import CMCPlot from './CMCPlot';
 import DeckDownload from './DeckDownload';
@@ -135,6 +136,8 @@ class Deck extends React.Component {
                   mainboard={this.props.stats.mainboard} 
                   sideboard={this.props.stats.sideboard} 
                 />
+
+                <Button href={`/deck/${this.props.stats.name.toLowerCase()}`} className="w-100 mt-2" variant="outline-dark">Details</Button>
                 
               </Col>
             </Row>
