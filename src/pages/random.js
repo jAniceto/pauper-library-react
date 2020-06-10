@@ -44,7 +44,7 @@ class RandomDeckPage extends React.Component {
     
     return (
       <Container>
-        <h1 className="display-4 mt-5">What to play next?</h1>
+        <h1 className="display-4 mt-5">What to play?</h1>
         {randomizeButton}
         <Deck 
           key={this.state.deck.name} 
