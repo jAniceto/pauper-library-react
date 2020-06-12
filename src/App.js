@@ -1,9 +1,4 @@
 import React from 'react';
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import Container from 'react-bootstrap/Container';
-// import Modal from 'react-bootstrap/Modal';
-// import Spinner from 'react-bootstrap/Spinner';
-// import InfiniteScroll from 'react-infinite-scroller';
 import {
   HashRouter as Router,  // previously: BrowserRouter as Router
   Route,
@@ -12,7 +7,7 @@ import {
   Redirect,
   useParams
 } from 'react-router-dom';
-
+import ReactGA from 'react-ga';
 import './App.css';
 import DeckShowcase from './pages';
 import DeckIndex from './pages/deck-index';
@@ -28,6 +23,8 @@ class App extends React.Component {
   
 
   render() {
+    ReactGA.initialize('UA-58056773-11');
+    ReactGA.pageview(window.location.pathname + window.location.search);
     return (<>
       <Router>
         <Header />

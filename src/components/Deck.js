@@ -7,6 +7,7 @@ import Button from 'react-bootstrap/Button';
 import CardRow from './CardRow';
 import CMCPlot from './CMCPlot';
 import DeckDownload from './DeckDownload';
+import { Link } from "react-router-dom";
 import './Deck.css';
 import '../css/mana.css';
 
@@ -137,7 +138,7 @@ class Deck extends React.Component {
                   sideboard={this.props.stats.sideboard} 
                 />
 
-                <Button href={`/deck/${this.props.stats.name.toLowerCase()}`} className="w-100 mt-2" variant="outline-dark">Details</Button>
+                <Button as={Link} to={`/deck/${this.props.stats.name.toLowerCase()}`} className="w-100 mt-2" variant="outline-dark">Details</Button>
                 
               </Col>
             </Row>
