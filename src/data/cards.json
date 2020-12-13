@@ -1510,7 +1510,7 @@
   "Ancestral Mask": {
     "best_price": [
       "EMA",
-      "4.69"
+      "4.61"
     ],
     "cmc": 3.0,
     "colors": [
@@ -1549,7 +1549,7 @@
       ],
       [
         "EMA",
-        "4.69"
+        "4.61"
       ]
     ],
     "scryfall_uri": "https://scryfall.com/card/mb1/1119/ancestral-mask?utm_source=api",
@@ -1707,6 +1707,62 @@
     "scryfall_uri": "https://scryfall.com/card/inv/319/ancient-spring?utm_source=api",
     "type": "Land"
   },
+  "Ancient Stirrings": {
+    "best_price": [
+      "2XM",
+      "0.02"
+    ],
+    "cmc": 1.0,
+    "colors": [
+      "G"
+    ],
+    "image_uris": {
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/d/3/d37704ee-5d19-4158-aca9-e788888b23da.jpg?1573513029",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/d/3/d37704ee-5d19-4158-aca9-e788888b23da.jpg?1573513029",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/d/3/d37704ee-5d19-4158-aca9-e788888b23da.jpg?1573513029",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/3/d37704ee-5d19-4158-aca9-e788888b23da.jpg?1573513029",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/d/3/d37704ee-5d19-4158-aca9-e788888b23da.png?1573513029",
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/d/3/d37704ee-5d19-4158-aca9-e788888b23da.jpg?1573513029"
+    },
+    "is_land": false,
+    "legalities": {
+      "brawl": "not_legal",
+      "commander": "legal",
+      "duel": "legal",
+      "future": "not_legal",
+      "historic": "not_legal",
+      "legacy": "legal",
+      "modern": "legal",
+      "oldschool": "not_legal",
+      "pauper": "legal",
+      "penny": "legal",
+      "pioneer": "not_legal",
+      "standard": "not_legal",
+      "vintage": "legal"
+    },
+    "mana_cost": "{G}",
+    "name": "Ancient Stirrings",
+    "prices": [
+      [
+        "PRM",
+        "0.04"
+      ],
+      [
+        "A25",
+        "0.03"
+      ],
+      [
+        "2XM",
+        "0.02"
+      ],
+      [
+        "ROE",
+        "0.02"
+      ]
+    ],
+    "scryfall_uri": "https://scryfall.com/card/mb1/1121/ancient-stirrings?utm_source=api",
+    "type": "Sorcery"
+  },
   "Angelic Purge": {
     "best_price": [
       "SOI",
@@ -1789,7 +1845,7 @@
     "prices": [
       [
         "WTH",
-        "0.06"
+        "0.05"
       ],
       [
         "UMA",
@@ -1802,7 +1858,7 @@
   "Annoyed Altisaur": {
     "best_price": [
       "CMR",
-      "0.70"
+      "0.63"
     ],
     "cmc": 7.0,
     "colors": [
@@ -1837,7 +1893,7 @@
     "prices": [
       [
         "CMR",
-        "0.70"
+        "0.63"
       ]
     ],
     "scryfall_uri": "https://scryfall.com/card/cmr/216/annoyed-altisaur?utm_source=api",
@@ -2411,11 +2467,11 @@
         "0.03"
       ],
       [
-        "WWK",
-        "0.03"
+        "M13",
+        "0.02"
       ],
       [
-        "M13",
+        "WWK",
         "0.02"
       ]
     ],
@@ -2525,7 +2581,7 @@
   "Arcane Denial": {
     "best_price": [
       "A25",
-      "0.06"
+      "0.09"
     ],
     "cmc": 2.0,
     "colors": [
@@ -2563,12 +2619,12 @@
         "0.79"
       ],
       [
-        "ME1",
+        "A25",
         "0.09"
       ],
       [
-        "A25",
-        "0.06"
+        "ME1",
+        "0.09"
       ]
     ],
     "scryfall_uri": "https://scryfall.com/card/mb1/288/arcane-denial?utm_source=api",
@@ -2622,8 +2678,8 @@
   },
   "Arcbound Worker": {
     "best_price": [
-      "MMA",
-      "0.03"
+      "DST",
+      "0.02"
     ],
     "cmc": 1.0,
     "colors": [],
@@ -2664,7 +2720,7 @@
       ],
       [
         "DST",
-        "0.03"
+        "0.02"
       ]
     ],
     "scryfall_uri": "https://scryfall.com/card/dst/104/arcbound-worker?utm_source=api",
@@ -5603,6 +5659,50 @@
     "scryfall_uri": "https://scryfall.com/card/psal/B53/es/guardabosques-leeabedules?utm_source=api",
     "type": "Creature \u2014 Elf Druid"
   },
+  "Bitterbow Sharpshooters": {
+    "best_price": [
+      "HOU",
+      "0.04"
+    ],
+    "cmc": 5.0,
+    "colors": [
+      "G"
+    ],
+    "image_uris": {
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/7/5/753d2393-ce5a-422f-858c-25e3f61d52bd.jpg?1595438033",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/7/5/753d2393-ce5a-422f-858c-25e3f61d52bd.jpg?1595438033",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/7/5/753d2393-ce5a-422f-858c-25e3f61d52bd.jpg?1595438033",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/5/753d2393-ce5a-422f-858c-25e3f61d52bd.jpg?1595438033",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/7/5/753d2393-ce5a-422f-858c-25e3f61d52bd.png?1595438033",
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/7/5/753d2393-ce5a-422f-858c-25e3f61d52bd.jpg?1595438033"
+    },
+    "is_land": false,
+    "legalities": {
+      "brawl": "not_legal",
+      "commander": "legal",
+      "duel": "legal",
+      "future": "not_legal",
+      "historic": "legal",
+      "legacy": "legal",
+      "modern": "legal",
+      "oldschool": "not_legal",
+      "pauper": "legal",
+      "penny": "not_legal",
+      "pioneer": "legal",
+      "standard": "not_legal",
+      "vintage": "legal"
+    },
+    "mana_cost": "{4}{G}",
+    "name": "Bitterbow Sharpshooters",
+    "prices": [
+      [
+        "HOU",
+        "0.04"
+      ]
+    ],
+    "scryfall_uri": "https://scryfall.com/card/mb1/1140/bitterbow-sharpshooters?utm_source=api",
+    "type": "Creature \u2014 Jackal Archer"
+  },
   "Bladebrand": {
     "best_price": [
       "CMR",
@@ -6784,7 +6884,7 @@
   "Boarding Party": {
     "best_price": [
       "CMR",
-      "0.64"
+      "0.63"
     ],
     "cmc": 6.0,
     "colors": [
@@ -6819,7 +6919,7 @@
     "prices": [
       [
         "CMR",
-        "0.64"
+        "0.63"
       ]
     ],
     "scryfall_uri": "https://scryfall.com/card/cmr/163/boarding-party?utm_source=api",
@@ -7279,8 +7379,8 @@
   },
   "Boros Garrison": {
     "best_price": [
-      "MM2",
-      "0.03"
+      "RAV",
+      "0.02"
     ],
     "cmc": 0.0,
     "colors": [],
@@ -7333,7 +7433,7 @@
       ],
       [
         "RAV",
-        "0.03"
+        "0.02"
       ]
     ],
     "scryfall_uri": "https://scryfall.com/card/gk1/98/boros-garrison?utm_source=api",
@@ -8427,7 +8527,7 @@
     "prices": [
       [
         "V16",
-        "10.67"
+        "10.90"
       ],
       [
         "TOR",
@@ -9061,6 +9161,58 @@
     ],
     "scryfall_uri": "https://scryfall.com/card/mb1/881/cartouche-of-zeal?utm_source=api",
     "type": "Enchantment \u2014 Aura Cartouche"
+  },
+  "Cast Down": {
+    "best_price": [
+      "CMR",
+      "0.03"
+    ],
+    "cmc": 2.0,
+    "colors": [
+      "B"
+    ],
+    "image_uris": {
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/a/4/a41150b2-44a6-4e80-8b32-afc6ea744fb3.jpg?1591104816",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/a/4/a41150b2-44a6-4e80-8b32-afc6ea744fb3.jpg?1591104816",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/a/4/a41150b2-44a6-4e80-8b32-afc6ea744fb3.jpg?1591104816",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/4/a41150b2-44a6-4e80-8b32-afc6ea744fb3.jpg?1591104816",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/a/4/a41150b2-44a6-4e80-8b32-afc6ea744fb3.png?1591104816",
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/a/4/a41150b2-44a6-4e80-8b32-afc6ea744fb3.jpg?1591104816"
+    },
+    "is_land": false,
+    "legalities": {
+      "brawl": "not_legal",
+      "commander": "legal",
+      "duel": "legal",
+      "future": "not_legal",
+      "historic": "legal",
+      "legacy": "legal",
+      "modern": "legal",
+      "oldschool": "not_legal",
+      "pauper": "legal",
+      "penny": "not_legal",
+      "pioneer": "legal",
+      "standard": "not_legal",
+      "vintage": "legal"
+    },
+    "mana_cost": "{1}{B}",
+    "name": "Cast Down",
+    "prices": [
+      [
+        "2XM",
+        "0.04"
+      ],
+      [
+        "CMR",
+        "0.03"
+      ],
+      [
+        "DOM",
+        "0.03"
+      ]
+    ],
+    "scryfall_uri": "https://scryfall.com/card/pdom/81/cast-down?utm_source=api",
+    "type": "Instant"
   },
   "Castigate": {
     "best_price": [
@@ -11031,6 +11183,54 @@
     "scryfall_uri": "https://scryfall.com/card/eve/99/clout-of-the-dominus?utm_source=api",
     "type": "Enchantment \u2014 Aura"
   },
+  "Coalition Honor Guard": {
+    "best_price": [
+      "EMA",
+      "0.05"
+    ],
+    "cmc": 4.0,
+    "colors": [
+      "W"
+    ],
+    "image_uris": {
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/d/1/d1debd18-070c-4e81-9462-65fab15d3373.jpg?1573505064",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/d/1/d1debd18-070c-4e81-9462-65fab15d3373.jpg?1573505064",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/d/1/d1debd18-070c-4e81-9462-65fab15d3373.jpg?1573505064",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/1/d1debd18-070c-4e81-9462-65fab15d3373.jpg?1573505064",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/d/1/d1debd18-070c-4e81-9462-65fab15d3373.png?1573505064",
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/d/1/d1debd18-070c-4e81-9462-65fab15d3373.jpg?1573505064"
+    },
+    "is_land": false,
+    "legalities": {
+      "brawl": "not_legal",
+      "commander": "legal",
+      "duel": "legal",
+      "future": "not_legal",
+      "historic": "not_legal",
+      "legacy": "legal",
+      "modern": "not_legal",
+      "oldschool": "not_legal",
+      "pauper": "legal",
+      "penny": "legal",
+      "pioneer": "not_legal",
+      "standard": "not_legal",
+      "vintage": "legal"
+    },
+    "mana_cost": "{3}{W}",
+    "name": "Coalition Honor Guard",
+    "prices": [
+      [
+        "APC",
+        "0.09"
+      ],
+      [
+        "EMA",
+        "0.05"
+      ]
+    ],
+    "scryfall_uri": "https://scryfall.com/card/mb1/58/coalition-honor-guard?utm_source=api",
+    "type": "Creature \u2014 Human Flagbearer"
+  },
   "Coastal Drake": {
     "best_price": [
       "APC",
@@ -11778,7 +11978,7 @@
   "Coral Net": {
     "best_price": [
       "TOR",
-      "0.43"
+      "0.40"
     ],
     "cmc": 1.0,
     "colors": [
@@ -11813,7 +12013,7 @@
     "prices": [
       [
         "TOR",
-        "0.43"
+        "0.40"
       ]
     ],
     "scryfall_uri": "https://scryfall.com/card/tor/35/coral-net?utm_source=api",
@@ -12618,7 +12818,7 @@
   "Crop Rotation": {
     "best_price": [
       "2XM",
-      "0.85"
+      "0.90"
     ],
     "cmc": 1.0,
     "colors": [
@@ -12653,7 +12853,7 @@
     "prices": [
       [
         "ULG",
-        "1.63"
+        "1.58"
       ],
       [
         "PRM",
@@ -12661,7 +12861,7 @@
       ],
       [
         "2XM",
-        "0.85"
+        "0.90"
       ]
     ],
     "scryfall_uri": "https://scryfall.com/card/mb1/1171/crop-rotation?utm_source=api",
@@ -13311,7 +13511,7 @@
   "Custodi Squire": {
     "best_price": [
       "PZ2",
-      "2.10"
+      "2.03"
     ],
     "cmc": 5.0,
     "colors": [
@@ -13346,7 +13546,7 @@
     "prices": [
       [
         "PZ2",
-        "2.10"
+        "2.03"
       ]
     ],
     "scryfall_uri": "https://scryfall.com/card/cns/18/custodi-squire?utm_source=api",
@@ -14067,6 +14267,50 @@
     ],
     "scryfall_uri": "https://scryfall.com/card/mb1/1178/dawns-reflection?utm_source=api",
     "type": "Enchantment \u2014 Aura"
+  },
+  "Dawnglare Invoker": {
+    "best_price": [
+      "ROE",
+      "0.03"
+    ],
+    "cmc": 3.0,
+    "colors": [
+      "W"
+    ],
+    "image_uris": {
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/3/7/37128dc6-86a7-408d-a1e8-6728d584fbf9.jpg?1573505173",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/3/7/37128dc6-86a7-408d-a1e8-6728d584fbf9.jpg?1573505173",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/3/7/37128dc6-86a7-408d-a1e8-6728d584fbf9.jpg?1573505173",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/7/37128dc6-86a7-408d-a1e8-6728d584fbf9.jpg?1573505173",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/3/7/37128dc6-86a7-408d-a1e8-6728d584fbf9.png?1573505173",
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/3/7/37128dc6-86a7-408d-a1e8-6728d584fbf9.jpg?1573505173"
+    },
+    "is_land": false,
+    "legalities": {
+      "brawl": "not_legal",
+      "commander": "legal",
+      "duel": "legal",
+      "future": "not_legal",
+      "historic": "not_legal",
+      "legacy": "legal",
+      "modern": "legal",
+      "oldschool": "not_legal",
+      "pauper": "legal",
+      "penny": "not_legal",
+      "pioneer": "not_legal",
+      "standard": "not_legal",
+      "vintage": "legal"
+    },
+    "mana_cost": "{2}{W}",
+    "name": "Dawnglare Invoker",
+    "prices": [
+      [
+        "ROE",
+        "0.03"
+      ]
+    ],
+    "scryfall_uri": "https://scryfall.com/card/mb1/70/dawnglare-invoker?utm_source=api",
+    "type": "Creature \u2014 Kor Wizard"
   },
   "Dead Weight": {
     "best_price": [
@@ -17157,6 +17401,56 @@
     "scryfall_uri": "https://scryfall.com/card/plist/53/drift-of-phantasms?utm_source=api",
     "type": "Creature \u2014 Spirit"
   },
+  "Drifting Meadow": {
+    "best_price": [
+      "USG",
+      "0.03"
+    ],
+    "cmc": 0.0,
+    "colors": [],
+    "image_uris": {
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/b/d/bd6aef10-22c9-48de-b67f-32aff932cfea.jpg?1562485284",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/b/d/bd6aef10-22c9-48de-b67f-32aff932cfea.jpg?1562485284",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/b/d/bd6aef10-22c9-48de-b67f-32aff932cfea.jpg?1562485284",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/d/bd6aef10-22c9-48de-b67f-32aff932cfea.jpg?1562485284",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/b/d/bd6aef10-22c9-48de-b67f-32aff932cfea.png?1562485284",
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/b/d/bd6aef10-22c9-48de-b67f-32aff932cfea.jpg?1562485284"
+    },
+    "is_land": true,
+    "legalities": {
+      "brawl": "not_legal",
+      "commander": "legal",
+      "duel": "legal",
+      "future": "not_legal",
+      "historic": "not_legal",
+      "legacy": "legal",
+      "modern": "not_legal",
+      "oldschool": "not_legal",
+      "pauper": "legal",
+      "penny": "not_legal",
+      "pioneer": "not_legal",
+      "standard": "not_legal",
+      "vintage": "legal"
+    },
+    "mana_cost": "",
+    "name": "Drifting Meadow",
+    "prices": [
+      [
+        "C14",
+        "0.15"
+      ],
+      [
+        "C13",
+        "0.14"
+      ],
+      [
+        "USG",
+        "0.03"
+      ]
+    ],
+    "scryfall_uri": "https://scryfall.com/card/ath/72/drifting-meadow?utm_source=api",
+    "type": "Land"
+  },
   "Dripping-Tongue Zubera": {
     "best_price": [
       "CHK",
@@ -18472,6 +18766,50 @@
     "scryfall_uri": "https://scryfall.com/card/f14/2/elvish-mystic?utm_source=api",
     "type": "Creature \u2014 Elf Druid"
   },
+  "Elvish Rejuvenator": {
+    "best_price": [
+      "M19",
+      "0.03"
+    ],
+    "cmc": 3.0,
+    "colors": [
+      "G"
+    ],
+    "image_uris": {
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/2/7/27e4eef3-06a4-4d48-85f3-88fb33e9122a.jpg?1570573712",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/2/7/27e4eef3-06a4-4d48-85f3-88fb33e9122a.jpg?1570573712",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/2/7/27e4eef3-06a4-4d48-85f3-88fb33e9122a.jpg?1570573712",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/7/27e4eef3-06a4-4d48-85f3-88fb33e9122a.jpg?1570573712",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/2/7/27e4eef3-06a4-4d48-85f3-88fb33e9122a.png?1570573712",
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/2/7/27e4eef3-06a4-4d48-85f3-88fb33e9122a.jpg?1570573712"
+    },
+    "is_land": false,
+    "legalities": {
+      "brawl": "not_legal",
+      "commander": "legal",
+      "duel": "legal",
+      "future": "not_legal",
+      "historic": "legal",
+      "legacy": "legal",
+      "modern": "legal",
+      "oldschool": "not_legal",
+      "pauper": "legal",
+      "penny": "not_legal",
+      "pioneer": "legal",
+      "standard": "not_legal",
+      "vintage": "legal"
+    },
+    "mana_cost": "{2}{G}",
+    "name": "Elvish Rejuvenator",
+    "prices": [
+      [
+        "M19",
+        "0.03"
+      ]
+    ],
+    "scryfall_uri": "https://scryfall.com/card/pm19/180/elvish-rejuvenator?utm_source=api",
+    "type": "Creature \u2014 Elf Druid"
+  },
   "Elvish Vanguard": {
     "best_price": [
       "EMA",
@@ -18915,7 +19253,7 @@
   "Entourage of Trest": {
     "best_price": [
       "CMR",
-      "0.11"
+      "0.14"
     ],
     "cmc": 5.0,
     "colors": [
@@ -18954,7 +19292,7 @@
       ],
       [
         "CMR",
-        "0.11"
+        "0.14"
       ]
     ],
     "scryfall_uri": "https://scryfall.com/card/cn2/64/entourage-of-trest?utm_source=api",
@@ -19861,15 +20199,15 @@
         "0.03"
       ],
       [
-        "WWK",
-        "0.03"
-      ],
-      [
         "2XM",
         "0.02"
       ],
       [
         "MM2",
+        "0.02"
+      ],
+      [
+        "WWK",
         "0.02"
       ]
     ],
@@ -20201,7 +20539,7 @@
   "Exhume": {
     "best_price": [
       "USG",
-      "0.62"
+      "0.51"
     ],
     "cmc": 2.0,
     "colors": [
@@ -20240,7 +20578,7 @@
       ],
       [
         "USG",
-        "0.62"
+        "0.51"
       ]
     ],
     "scryfall_uri": "https://scryfall.com/card/brb/24/exhume?utm_source=api",
@@ -20290,6 +20628,54 @@
     "scryfall_uri": "https://scryfall.com/card/mb1/918/expedite?utm_source=api",
     "type": "Instant"
   },
+  "Explore": {
+    "best_price": [
+      "WWK",
+      "0.02"
+    ],
+    "cmc": 2.0,
+    "colors": [
+      "G"
+    ],
+    "image_uris": {
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/2/5/25368053-e5eb-4fc1-9141-1011ef125562.jpg?1562543592",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/2/5/25368053-e5eb-4fc1-9141-1011ef125562.jpg?1562543592",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/2/5/25368053-e5eb-4fc1-9141-1011ef125562.jpg?1562543592",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/5/25368053-e5eb-4fc1-9141-1011ef125562.jpg?1562543592",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/2/5/25368053-e5eb-4fc1-9141-1011ef125562.png?1562543592",
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/2/5/25368053-e5eb-4fc1-9141-1011ef125562.jpg?1562543592"
+    },
+    "is_land": false,
+    "legalities": {
+      "brawl": "not_legal",
+      "commander": "legal",
+      "duel": "legal",
+      "future": "not_legal",
+      "historic": "legal",
+      "legacy": "legal",
+      "modern": "legal",
+      "oldschool": "not_legal",
+      "pauper": "legal",
+      "penny": "legal",
+      "pioneer": "not_legal",
+      "standard": "not_legal",
+      "vintage": "legal"
+    },
+    "mana_cost": "{1}{G}",
+    "name": "Explore",
+    "prices": [
+      [
+        "MM3",
+        "0.03"
+      ],
+      [
+        "WWK",
+        "0.02"
+      ]
+    ],
+    "scryfall_uri": "https://scryfall.com/card/prm/59643/explore?utm_source=api",
+    "type": "Sorcery"
+  },
   "Explorer's Scope": {
     "best_price": [
       "ZEN",
@@ -20331,6 +20717,50 @@
     ],
     "scryfall_uri": "https://scryfall.com/card/cns/198/explorers-scope?utm_source=api",
     "type": "Artifact \u2014 Equipment"
+  },
+  "Eye of Nowhere": {
+    "best_price": [
+      "CHK",
+      "0.02"
+    ],
+    "cmc": 2.0,
+    "colors": [
+      "U"
+    ],
+    "image_uris": {
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/b/3/b307af89-1890-4fac-a12e-f8a678f1101f.jpg?1562763684",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/b/3/b307af89-1890-4fac-a12e-f8a678f1101f.jpg?1562763684",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/b/3/b307af89-1890-4fac-a12e-f8a678f1101f.jpg?1562763684",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/3/b307af89-1890-4fac-a12e-f8a678f1101f.jpg?1562763684",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/b/3/b307af89-1890-4fac-a12e-f8a678f1101f.png?1562763684",
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/b/3/b307af89-1890-4fac-a12e-f8a678f1101f.jpg?1562763684"
+    },
+    "is_land": false,
+    "legalities": {
+      "brawl": "not_legal",
+      "commander": "legal",
+      "duel": "legal",
+      "future": "not_legal",
+      "historic": "not_legal",
+      "legacy": "legal",
+      "modern": "legal",
+      "oldschool": "not_legal",
+      "pauper": "legal",
+      "penny": "legal",
+      "pioneer": "not_legal",
+      "standard": "not_legal",
+      "vintage": "legal"
+    },
+    "mana_cost": "{U}{U}",
+    "name": "Eye of Nowhere",
+    "prices": [
+      [
+        "CHK",
+        "0.02"
+      ]
+    ],
+    "scryfall_uri": "https://scryfall.com/card/chk/59/eye-of-nowhere?utm_source=api",
+    "type": "Sorcery \u2014 Arcane"
   },
   "Eyeblight's Ending": {
     "best_price": [
@@ -20943,6 +21373,50 @@
     ],
     "scryfall_uri": "https://scryfall.com/card/ddq/57/falkenrath-noble?utm_source=api",
     "type": "Creature \u2014 Vampire Noble"
+  },
+  "Fall from Favor": {
+    "best_price": [
+      "CMR",
+      "3.58"
+    ],
+    "cmc": 3.0,
+    "colors": [
+      "U"
+    ],
+    "image_uris": {
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/e/7/e709a18f-b99d-4fa1-ae5c-7f22abd02c0a.jpg?1604080340",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/e/7/e709a18f-b99d-4fa1-ae5c-7f22abd02c0a.jpg?1604080340",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/e/7/e709a18f-b99d-4fa1-ae5c-7f22abd02c0a.jpg?1604080340",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/e/7/e709a18f-b99d-4fa1-ae5c-7f22abd02c0a.jpg?1604080340",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/e/7/e709a18f-b99d-4fa1-ae5c-7f22abd02c0a.png?1604080340",
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/e/7/e709a18f-b99d-4fa1-ae5c-7f22abd02c0a.jpg?1604080340"
+    },
+    "is_land": false,
+    "legalities": {
+      "brawl": "not_legal",
+      "commander": "legal",
+      "duel": "legal",
+      "future": "not_legal",
+      "historic": "not_legal",
+      "legacy": "legal",
+      "modern": "not_legal",
+      "oldschool": "not_legal",
+      "pauper": "legal",
+      "penny": "not_legal",
+      "pioneer": "not_legal",
+      "standard": "not_legal",
+      "vintage": "legal"
+    },
+    "mana_cost": "{2}{U}",
+    "name": "Fall from Favor",
+    "prices": [
+      [
+        "CMR",
+        "3.58"
+      ]
+    ],
+    "scryfall_uri": "https://scryfall.com/card/cmr/68/fall-from-favor?utm_source=api",
+    "type": "Enchantment \u2014 Aura"
   },
   "Fall of the Hammer": {
     "best_price": [
@@ -21724,19 +22198,19 @@
   "Fiery Cannonade": {
     "best_price": [
       "CMR",
-      "0.03"
+      "0.02"
     ],
     "cmc": 3.0,
     "colors": [
       "R"
     ],
     "image_uris": {
-      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/6/6/664d21c9-4b6c-4797-845f-7bca79c2b76b.jpg?1562556766",
-      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/6/6/664d21c9-4b6c-4797-845f-7bca79c2b76b.jpg?1562556766",
-      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/6/6/664d21c9-4b6c-4797-845f-7bca79c2b76b.jpg?1562556766",
-      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/6/6/664d21c9-4b6c-4797-845f-7bca79c2b76b.jpg?1562556766",
-      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/6/6/664d21c9-4b6c-4797-845f-7bca79c2b76b.png?1562556766",
-      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/6/6/664d21c9-4b6c-4797-845f-7bca79c2b76b.jpg?1562556766"
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/3/9/396f1cdf-712b-4518-a0e8-0039303dccdc.jpg?1604630725",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/3/9/396f1cdf-712b-4518-a0e8-0039303dccdc.jpg?1604630725",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/3/9/396f1cdf-712b-4518-a0e8-0039303dccdc.jpg?1604630725",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/9/396f1cdf-712b-4518-a0e8-0039303dccdc.jpg?1604630725",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/3/9/396f1cdf-712b-4518-a0e8-0039303dccdc.png?1604630725",
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/3/9/396f1cdf-712b-4518-a0e8-0039303dccdc.jpg?1604630725"
     },
     "is_land": false,
     "legalities": {
@@ -21758,15 +22232,15 @@
     "name": "Fiery Cannonade",
     "prices": [
       [
-        "CMR",
+        "XLN",
         "0.03"
       ],
       [
-        "XLN",
-        "0.03"
+        "CMR",
+        "0.02"
       ]
     ],
-    "scryfall_uri": "https://scryfall.com/card/xln/143/fiery-cannonade?utm_source=api",
+    "scryfall_uri": "https://scryfall.com/card/cmr/178/fiery-cannonade?utm_source=api",
     "type": "Instant"
   },
   "Fiery Temper": {
@@ -22379,7 +22853,7 @@
   "Flame Slash": {
     "best_price": [
       "ROE",
-      "0.26"
+      "0.22"
     ],
     "cmc": 1.0,
     "colors": [
@@ -22418,7 +22892,7 @@
       ],
       [
         "ROE",
-        "0.26"
+        "0.22"
       ]
     ],
     "scryfall_uri": "https://scryfall.com/card/cn2/157/flame-slash?utm_source=api",
@@ -22565,50 +23039,6 @@
     ],
     "scryfall_uri": "https://scryfall.com/card/mb1/1583/flayer-husk?utm_source=api",
     "type": "Artifact \u2014 Equipment"
-  },
-  "Fledgling Griffin": {
-    "best_price": [
-      "WWK",
-      "0.03"
-    ],
-    "cmc": 2.0,
-    "colors": [
-      "W"
-    ],
-    "image_uris": {
-      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/1/7/1739550d-3bd8-421b-b2a9-95dd3bff2ce2.jpg?1562282693",
-      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/1/7/1739550d-3bd8-421b-b2a9-95dd3bff2ce2.jpg?1562282693",
-      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/1/7/1739550d-3bd8-421b-b2a9-95dd3bff2ce2.jpg?1562282693",
-      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/1/7/1739550d-3bd8-421b-b2a9-95dd3bff2ce2.jpg?1562282693",
-      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/1/7/1739550d-3bd8-421b-b2a9-95dd3bff2ce2.png?1562282693",
-      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/1/7/1739550d-3bd8-421b-b2a9-95dd3bff2ce2.jpg?1562282693"
-    },
-    "is_land": false,
-    "legalities": {
-      "brawl": "not_legal",
-      "commander": "legal",
-      "duel": "legal",
-      "future": "not_legal",
-      "historic": "not_legal",
-      "legacy": "legal",
-      "modern": "legal",
-      "oldschool": "not_legal",
-      "pauper": "legal",
-      "penny": "not_legal",
-      "pioneer": "not_legal",
-      "standard": "not_legal",
-      "vintage": "legal"
-    },
-    "mana_cost": "{1}{W}",
-    "name": "Fledgling Griffin",
-    "prices": [
-      [
-        "WWK",
-        "0.03"
-      ]
-    ],
-    "scryfall_uri": "https://scryfall.com/card/wwk/5/fledgling-griffin?utm_source=api",
-    "type": "Creature \u2014 Griffin"
   },
   "Flensermite": {
     "best_price": [
@@ -23133,6 +23563,54 @@
     ],
     "scryfall_uri": "https://scryfall.com/card/f07/12/force-spike?utm_source=api",
     "type": "Instant"
+  },
+  "Foresee": {
+    "best_price": [
+      "M11",
+      "0.02"
+    ],
+    "cmc": 4.0,
+    "colors": [
+      "U"
+    ],
+    "image_uris": {
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/f/d/fd0d7b86-5ea5-42a3-91b6-0b09db06756c.jpg?1562482231",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/f/d/fd0d7b86-5ea5-42a3-91b6-0b09db06756c.jpg?1562482231",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/f/d/fd0d7b86-5ea5-42a3-91b6-0b09db06756c.jpg?1562482231",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/d/fd0d7b86-5ea5-42a3-91b6-0b09db06756c.jpg?1562482231",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/f/d/fd0d7b86-5ea5-42a3-91b6-0b09db06756c.png?1562482231",
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/f/d/fd0d7b86-5ea5-42a3-91b6-0b09db06756c.jpg?1562482231"
+    },
+    "is_land": false,
+    "legalities": {
+      "brawl": "not_legal",
+      "commander": "legal",
+      "duel": "legal",
+      "future": "not_legal",
+      "historic": "not_legal",
+      "legacy": "legal",
+      "modern": "legal",
+      "oldschool": "not_legal",
+      "pauper": "legal",
+      "penny": "legal",
+      "pioneer": "not_legal",
+      "standard": "not_legal",
+      "vintage": "legal"
+    },
+    "mana_cost": "{3}{U}",
+    "name": "Foresee",
+    "prices": [
+      [
+        "FUT",
+        "0.03"
+      ],
+      [
+        "M11",
+        "0.02"
+      ]
+    ],
+    "scryfall_uri": "https://scryfall.com/card/m11/54/foresee?utm_source=api",
+    "type": "Sorcery"
   },
   "Forest": {
     "best_price": [
@@ -26624,7 +27102,7 @@
   "Goblin Cohort": {
     "best_price": [
       "BOK",
-      "0.03"
+      "0.02"
     ],
     "cmc": 1.0,
     "colors": [
@@ -26663,7 +27141,7 @@
       ],
       [
         "BOK",
-        "0.03"
+        "0.02"
       ]
     ],
     "scryfall_uri": "https://scryfall.com/card/evg/38/goblin-cohort?utm_source=api",
@@ -27047,11 +27525,11 @@
         "0.09"
       ],
       [
-        "USG",
-        "0.06"
+        "7ED",
+        "0.03"
       ],
       [
-        "7ED",
+        "USG",
         "0.03"
       ],
       [
@@ -29298,7 +29776,7 @@
   "Gut Shot": {
     "best_price": [
       "MM2",
-      "0.89"
+      "0.99"
     ],
     "cmc": 1.0,
     "colors": [
@@ -29333,11 +29811,11 @@
     "prices": [
       [
         "NPH",
-        "1.17"
+        "1.12"
       ],
       [
         "MM2",
-        "0.89"
+        "0.99"
       ]
     ],
     "scryfall_uri": "https://scryfall.com/card/mb1/969/gut-shot?utm_source=api",
@@ -30500,6 +30978,54 @@
     "scryfall_uri": "https://scryfall.com/card/drk/10/holy-light?utm_source=api",
     "type": "Instant"
   },
+  "Hoodwink": {
+    "best_price": [
+      "PRM",
+      "0.17"
+    ],
+    "cmc": 2.0,
+    "colors": [
+      "U"
+    ],
+    "image_uris": {
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/6/a/6afcbb04-e2f2-45f1-8060-9174174140e9.jpg?1562545422",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/6/a/6afcbb04-e2f2-45f1-8060-9174174140e9.jpg?1562545422",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/6/a/6afcbb04-e2f2-45f1-8060-9174174140e9.jpg?1562545422",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/6/a/6afcbb04-e2f2-45f1-8060-9174174140e9.jpg?1562545422",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/6/a/6afcbb04-e2f2-45f1-8060-9174174140e9.png?1562545422",
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/6/a/6afcbb04-e2f2-45f1-8060-9174174140e9.jpg?1562545422"
+    },
+    "is_land": false,
+    "legalities": {
+      "brawl": "not_legal",
+      "commander": "legal",
+      "duel": "legal",
+      "future": "not_legal",
+      "historic": "not_legal",
+      "legacy": "legal",
+      "modern": "not_legal",
+      "oldschool": "not_legal",
+      "pauper": "legal",
+      "penny": "not_legal",
+      "pioneer": "not_legal",
+      "standard": "not_legal",
+      "vintage": "legal"
+    },
+    "mana_cost": "{1}{U}",
+    "name": "Hoodwink",
+    "prices": [
+      [
+        "MMQ",
+        "0.25"
+      ],
+      [
+        "PRM",
+        "0.17"
+      ]
+    ],
+    "scryfall_uri": "https://scryfall.com/card/prm/62449/hoodwink?utm_source=api",
+    "type": "Instant"
+  },
   "Hooting Mandrills": {
     "best_price": [
       "KTK",
@@ -31294,7 +31820,7 @@
   "Ideas Unbound": {
     "best_price": [
       "SOK",
-      "0.34"
+      "0.37"
     ],
     "cmc": 2.0,
     "colors": [
@@ -31329,7 +31855,7 @@
     "prices": [
       [
         "SOK",
-        "0.34"
+        "0.37"
       ]
     ],
     "scryfall_uri": "https://scryfall.com/card/sok/40/ideas-unbound?utm_source=api",
@@ -31382,7 +31908,7 @@
   "Ill-Gotten Inheritance": {
     "best_price": [
       "RNA",
-      "0.03"
+      "0.04"
     ],
     "cmc": 4.0,
     "colors": [
@@ -31417,7 +31943,7 @@
     "prices": [
       [
         "RNA",
-        "0.03"
+        "0.04"
       ]
     ],
     "scryfall_uri": "https://scryfall.com/card/rna/77/ill-gotten-inheritance?utm_source=api",
@@ -31726,6 +32252,54 @@
     ],
     "scryfall_uri": "https://scryfall.com/card/mh1/14/impostor-of-the-sixth-pride?utm_source=api",
     "type": "Creature \u2014 Shapeshifter"
+  },
+  "Impulse": {
+    "best_price": [
+      "VIS",
+      "3.42"
+    ],
+    "cmc": 2.0,
+    "colors": [
+      "U"
+    ],
+    "image_uris": {
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/2/4/24e608b2-d18d-49a9-a041-b06dece40792.jpg?1562902778",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/2/4/24e608b2-d18d-49a9-a041-b06dece40792.jpg?1562902778",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/2/4/24e608b2-d18d-49a9-a041-b06dece40792.jpg?1562902778",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/4/24e608b2-d18d-49a9-a041-b06dece40792.jpg?1562902778",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/2/4/24e608b2-d18d-49a9-a041-b06dece40792.png?1562902778",
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/2/4/24e608b2-d18d-49a9-a041-b06dece40792.jpg?1562902778"
+    },
+    "is_land": false,
+    "legalities": {
+      "brawl": "not_legal",
+      "commander": "legal",
+      "duel": "legal",
+      "future": "not_legal",
+      "historic": "not_legal",
+      "legacy": "legal",
+      "modern": "not_legal",
+      "oldschool": "not_legal",
+      "pauper": "legal",
+      "penny": "not_legal",
+      "pioneer": "not_legal",
+      "standard": "not_legal",
+      "vintage": "legal"
+    },
+    "mana_cost": "{1}{U}",
+    "name": "Impulse",
+    "prices": [
+      [
+        "PRM",
+        "11.10"
+      ],
+      [
+        "VIS",
+        "3.42"
+      ]
+    ],
+    "scryfall_uri": "https://scryfall.com/card/btd/10/impulse?utm_source=api",
+    "type": "Instant"
   },
   "Inferno Fist": {
     "best_price": [
@@ -35580,6 +36154,50 @@
     "scryfall_uri": "https://scryfall.com/card/ths/22/last-breath?utm_source=api",
     "type": "Instant"
   },
+  "Last Rites": {
+    "best_price": [
+      "ODY",
+      "0.05"
+    ],
+    "cmc": 3.0,
+    "colors": [
+      "B"
+    ],
+    "image_uris": {
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/d/e/de496c0a-5651-47db-916b-38107a7792b4.jpg?1562939697",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/d/e/de496c0a-5651-47db-916b-38107a7792b4.jpg?1562939697",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/d/e/de496c0a-5651-47db-916b-38107a7792b4.jpg?1562939697",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/e/de496c0a-5651-47db-916b-38107a7792b4.jpg?1562939697",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/d/e/de496c0a-5651-47db-916b-38107a7792b4.png?1562939697",
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/d/e/de496c0a-5651-47db-916b-38107a7792b4.jpg?1562939697"
+    },
+    "is_land": false,
+    "legalities": {
+      "brawl": "not_legal",
+      "commander": "legal",
+      "duel": "legal",
+      "future": "not_legal",
+      "historic": "not_legal",
+      "legacy": "legal",
+      "modern": "not_legal",
+      "oldschool": "not_legal",
+      "pauper": "legal",
+      "penny": "not_legal",
+      "pioneer": "not_legal",
+      "standard": "not_legal",
+      "vintage": "legal"
+    },
+    "mana_cost": "{2}{B}",
+    "name": "Last Rites",
+    "prices": [
+      [
+        "ODY",
+        "0.05"
+      ]
+    ],
+    "scryfall_uri": "https://scryfall.com/card/pd3/21/last-rites?utm_source=api",
+    "type": "Sorcery"
+  },
   "Latchkey Faerie": {
     "best_price": [
       "MOR",
@@ -35678,20 +36296,20 @@
   },
   "Lava Spike": {
     "best_price": [
-      "TD0",
-      "0.76"
+      "MMA",
+      "0.80"
     ],
     "cmc": 1.0,
     "colors": [
       "R"
     ],
     "image_uris": {
-      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/0/4/049f1787-eddb-4ff2-adbe-e102142e972e.jpg?1562895880",
-      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/0/4/049f1787-eddb-4ff2-adbe-e102142e972e.jpg?1562895880",
-      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/0/4/049f1787-eddb-4ff2-adbe-e102142e972e.jpg?1562895880",
-      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/4/049f1787-eddb-4ff2-adbe-e102142e972e.jpg?1562895880",
-      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/0/4/049f1787-eddb-4ff2-adbe-e102142e972e.png?1562895880",
-      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/0/4/049f1787-eddb-4ff2-adbe-e102142e972e.jpg?1562895880"
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/6/0/60b2fae1-242b-45e0-a757-b1adc02c06f3.jpg?1562760596",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/6/0/60b2fae1-242b-45e0-a757-b1adc02c06f3.jpg?1562760596",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/6/0/60b2fae1-242b-45e0-a757-b1adc02c06f3.jpg?1562760596",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/6/0/60b2fae1-242b-45e0-a757-b1adc02c06f3.jpg?1562760596",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/6/0/60b2fae1-242b-45e0-a757-b1adc02c06f3.png?1562760596",
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/6/0/60b2fae1-242b-45e0-a757-b1adc02c06f3.jpg?1562760596"
     },
     "is_land": false,
     "legalities": {
@@ -35717,19 +36335,19 @@
         "0.90"
       ],
       [
+        "TD0",
+        "0.85"
+      ],
+      [
         "MMA",
         "0.80"
       ],
       [
         "CHK",
-        "0.79"
-      ],
-      [
-        "TD0",
-        "0.76"
+        "0.80"
       ]
     ],
-    "scryfall_uri": "https://scryfall.com/card/td0/B20/lava-spike?utm_source=api",
+    "scryfall_uri": "https://scryfall.com/card/chk/178/lava-spike?utm_source=api",
     "type": "Sorcery \u2014 Arcane"
   },
   "Lazotep Reaver": {
@@ -37280,7 +37898,7 @@
   },
   "Madcap Skills": {
     "best_price": [
-      "GTC",
+      "MM3",
       "0.03"
     ],
     "cmc": 2.0,
@@ -37316,7 +37934,7 @@
     "prices": [
       [
         "MM3",
-        "0.04"
+        "0.03"
       ],
       [
         "GTC",
@@ -37829,7 +38447,7 @@
     "prices": [
       [
         "STH",
-        "0.12"
+        "0.11"
       ],
       [
         "PRM",
@@ -39439,7 +40057,7 @@
   },
   "Mind Stone": {
     "best_price": [
-      "PRM",
+      "IMA",
       "0.34"
     ],
     "cmc": 2.0,
@@ -39476,8 +40094,8 @@
         "0.48"
       ],
       [
-        "IMA",
-        "0.36"
+        "10E",
+        "0.39"
       ],
       [
         "C14",
@@ -39488,8 +40106,8 @@
         "0.36"
       ],
       [
-        "10E",
-        "0.35"
+        "IMA",
+        "0.34"
       ],
       [
         "PRM",
@@ -39825,20 +40443,20 @@
   },
   "Mogg Conscripts": {
     "best_price": [
-      "TMP",
-      "0.45"
+      "TPR",
+      "0.53"
     ],
     "cmc": 1.0,
     "colors": [
       "R"
     ],
     "image_uris": {
-      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/7/3/73719325-b091-4464-b0b0-77dfbb19562a.jpg?1593863096",
-      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/7/3/73719325-b091-4464-b0b0-77dfbb19562a.jpg?1593863096",
-      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/7/3/73719325-b091-4464-b0b0-77dfbb19562a.jpg?1593863096",
-      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/3/73719325-b091-4464-b0b0-77dfbb19562a.jpg?1593863096",
-      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/7/3/73719325-b091-4464-b0b0-77dfbb19562a.png?1593863096",
-      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/7/3/73719325-b091-4464-b0b0-77dfbb19562a.jpg?1593863096"
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/c/6/c67c26d7-f752-40a5-b79e-1f4c531cbef5.jpg?1562431299",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/c/6/c67c26d7-f752-40a5-b79e-1f4c531cbef5.jpg?1562431299",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/c/6/c67c26d7-f752-40a5-b79e-1f4c531cbef5.jpg?1562431299",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/6/c67c26d7-f752-40a5-b79e-1f4c531cbef5.jpg?1562431299",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/c/6/c67c26d7-f752-40a5-b79e-1f4c531cbef5.png?1562431299",
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/c/6/c67c26d7-f752-40a5-b79e-1f4c531cbef5.jpg?1562431299"
     },
     "is_land": false,
     "legalities": {
@@ -39860,21 +40478,21 @@
     "name": "Mogg Conscripts",
     "prices": [
       [
-        "TPR",
-        "0.53"
+        "TMP",
+        "0.67"
       ],
       [
-        "TMP",
-        "0.45"
+        "TPR",
+        "0.53"
       ]
     ],
-    "scryfall_uri": "https://scryfall.com/card/tmp/189/mogg-conscripts?utm_source=api",
+    "scryfall_uri": "https://scryfall.com/card/tpr/143/mogg-conscripts?utm_source=api",
     "type": "Creature \u2014 Goblin"
   },
   "Mogg Raider": {
     "best_price": [
       "TMP",
-      "0.55"
+      "0.59"
     ],
     "cmc": 1.0,
     "colors": [
@@ -39909,7 +40527,7 @@
     "prices": [
       [
         "TMP",
-        "0.55"
+        "0.59"
       ]
     ],
     "scryfall_uri": "https://scryfall.com/card/ath/46/mogg-raider?utm_source=api",
@@ -40117,8 +40735,8 @@
   },
   "Molten Rain": {
     "best_price": [
-      "MRD",
-      "0.18"
+      "MM3",
+      "0.21"
     ],
     "cmc": 3.0,
     "colors": [
@@ -40157,7 +40775,7 @@
       ],
       [
         "MRD",
-        "0.18"
+        "0.21"
       ]
     ],
     "scryfall_uri": "https://scryfall.com/card/mb1/1016/molten-rain?utm_source=api",
@@ -41553,7 +42171,7 @@
   "Muddle the Mixture": {
     "best_price": [
       "RAV",
-      "0.03"
+      "0.02"
     ],
     "cmc": 2.0,
     "colors": [
@@ -41588,7 +42206,7 @@
     "prices": [
       [
         "RAV",
-        "0.03"
+        "0.02"
       ]
     ],
     "scryfall_uri": "https://scryfall.com/card/rav/60/muddle-the-mixture?utm_source=api",
@@ -41864,7 +42482,7 @@
     "prices": [
       [
         "NPH",
-        "1.29"
+        "1.31"
       ],
       [
         "MM2",
@@ -42169,7 +42787,7 @@
   "Mystic Remora": {
     "best_price": [
       "ME1",
-      "13.66"
+      "13.63"
     ],
     "cmc": 1.0,
     "colors": [
@@ -42204,7 +42822,7 @@
     "prices": [
       [
         "ME1",
-        "13.66"
+        "13.63"
       ]
     ],
     "scryfall_uri": "https://scryfall.com/card/ice/87/mystic-remora?utm_source=api",
@@ -42601,8 +43219,8 @@
   },
   "Nature's Claim": {
     "best_price": [
-      "EMA",
-      "0.16"
+      "WWK",
+      "0.17"
     ],
     "cmc": 1.0,
     "colors": [
@@ -42640,12 +43258,12 @@
         "0.23"
       ],
       [
-        "WWK",
-        "0.17"
+        "EMA",
+        "0.19"
       ],
       [
-        "EMA",
-        "0.16"
+        "WWK",
+        "0.17"
       ]
     ],
     "scryfall_uri": "https://scryfall.com/card/mb1/1275/natures-claim?utm_source=api",
@@ -42802,7 +43420,7 @@
   "Needle Drop": {
     "best_price": [
       "LRW",
-      "0.09"
+      "0.12"
     ],
     "cmc": 1.0,
     "colors": [
@@ -42837,7 +43455,7 @@
     "prices": [
       [
         "LRW",
-        "0.09"
+        "0.12"
       ]
     ],
     "scryfall_uri": "https://scryfall.com/card/lrw/186/needle-drop?utm_source=api",
@@ -42991,6 +43609,50 @@
     "scryfall_uri": "https://scryfall.com/card/p09/8/negate?utm_source=api",
     "type": "Instant"
   },
+  "Nessian Asp": {
+    "best_price": [
+      "THS",
+      "0.02"
+    ],
+    "cmc": 5.0,
+    "colors": [
+      "G"
+    ],
+    "image_uris": {
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/7/8/788c502d-360e-4610-b5a3-c9ed0af01b1d.jpg?1562840245",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/7/8/788c502d-360e-4610-b5a3-c9ed0af01b1d.jpg?1562840245",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/7/8/788c502d-360e-4610-b5a3-c9ed0af01b1d.jpg?1562840245",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/8/788c502d-360e-4610-b5a3-c9ed0af01b1d.jpg?1562840245",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/7/8/788c502d-360e-4610-b5a3-c9ed0af01b1d.png?1562840245",
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/7/8/788c502d-360e-4610-b5a3-c9ed0af01b1d.jpg?1562840245"
+    },
+    "is_land": false,
+    "legalities": {
+      "brawl": "not_legal",
+      "commander": "legal",
+      "duel": "legal",
+      "future": "not_legal",
+      "historic": "not_legal",
+      "legacy": "legal",
+      "modern": "legal",
+      "oldschool": "not_legal",
+      "pauper": "legal",
+      "penny": "legal",
+      "pioneer": "legal",
+      "standard": "not_legal",
+      "vintage": "legal"
+    },
+    "mana_cost": "{4}{G}",
+    "name": "Nessian Asp",
+    "prices": [
+      [
+        "THS",
+        "0.02"
+      ]
+    ],
+    "scryfall_uri": "https://scryfall.com/card/ddo/48/nessian-asp?utm_source=api",
+    "type": "Creature \u2014 Snake"
+  },
   "Nest Invader": {
     "best_price": [
       "MM2",
@@ -43050,7 +43712,7 @@
   "Nettle Sentinel": {
     "best_price": [
       "A25",
-      "0.55"
+      "0.59"
     ],
     "cmc": 1.0,
     "colors": [
@@ -43089,7 +43751,7 @@
       ],
       [
         "A25",
-        "0.55"
+        "0.59"
       ]
     ],
     "scryfall_uri": "https://scryfall.com/card/mb1/1278/nettle-sentinel?utm_source=api",
@@ -43271,7 +43933,7 @@
     "prices": [
       [
         "5DN",
-        "3.84"
+        "3.77"
       ],
       [
         "EMA",
@@ -44330,6 +44992,58 @@
     ],
     "scryfall_uri": "https://scryfall.com/card/thb/58/omen-of-the-sea?utm_source=api",
     "type": "Enchantment"
+  },
+  "Omenspeaker": {
+    "best_price": [
+      "CMR",
+      "0.01"
+    ],
+    "cmc": 2.0,
+    "colors": [
+      "U"
+    ],
+    "image_uris": {
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/b/a/ba50a1f1-2898-448c-a6dc-0860f49ba216.jpg?1573508069",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/b/a/ba50a1f1-2898-448c-a6dc-0860f49ba216.jpg?1573508069",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/b/a/ba50a1f1-2898-448c-a6dc-0860f49ba216.jpg?1573508069",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/a/ba50a1f1-2898-448c-a6dc-0860f49ba216.jpg?1573508069",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/b/a/ba50a1f1-2898-448c-a6dc-0860f49ba216.png?1573508069",
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/b/a/ba50a1f1-2898-448c-a6dc-0860f49ba216.jpg?1573508069"
+    },
+    "is_land": false,
+    "legalities": {
+      "brawl": "not_legal",
+      "commander": "legal",
+      "duel": "legal",
+      "future": "not_legal",
+      "historic": "legal",
+      "legacy": "legal",
+      "modern": "legal",
+      "oldschool": "not_legal",
+      "pauper": "legal",
+      "penny": "legal",
+      "pioneer": "legal",
+      "standard": "not_legal",
+      "vintage": "legal"
+    },
+    "mana_cost": "{1}{U}",
+    "name": "Omenspeaker",
+    "prices": [
+      [
+        "M19",
+        "0.04"
+      ],
+      [
+        "THS",
+        "0.02"
+      ],
+      [
+        "CMR",
+        "0.01"
+      ]
+    ],
+    "scryfall_uri": "https://scryfall.com/card/mb1/449/omenspeaker?utm_source=api",
+    "type": "Creature \u2014 Human Wizard"
   },
   "Ondu Cleric": {
     "best_price": [
@@ -45472,7 +46186,7 @@
   "Palace Sentinels": {
     "best_price": [
       "CMR",
-      "0.23"
+      "0.26"
     ],
     "cmc": 4.0,
     "colors": [
@@ -45507,11 +46221,11 @@
     "prices": [
       [
         "PZ2",
-        "0.42"
+        "0.38"
       ],
       [
         "CMR",
-        "0.23"
+        "0.26"
       ]
     ],
     "scryfall_uri": "https://scryfall.com/card/mb1/193/palace-sentinels?utm_source=api",
@@ -48362,6 +49076,62 @@
     "scryfall_uri": "https://scryfall.com/card/nph/19/porcelain-legionnaire?utm_source=api",
     "type": "Artifact Creature \u2014 Soldier"
   },
+  "Power Sink": {
+    "best_price": [
+      "VMA",
+      "0.04"
+    ],
+    "cmc": 1.0,
+    "colors": [
+      "U"
+    ],
+    "image_uris": {
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/4/d/4d3389c3-2ca0-409d-ba6b-ded85d223661.jpg?1539992865",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/4/d/4d3389c3-2ca0-409d-ba6b-ded85d223661.jpg?1539992865",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/4/d/4d3389c3-2ca0-409d-ba6b-ded85d223661.jpg?1539992865",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/d/4d3389c3-2ca0-409d-ba6b-ded85d223661.jpg?1539992865",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/4/d/4d3389c3-2ca0-409d-ba6b-ded85d223661.png?1539992865",
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/4/d/4d3389c3-2ca0-409d-ba6b-ded85d223661.jpg?1539992865"
+    },
+    "is_land": false,
+    "legalities": {
+      "brawl": "not_legal",
+      "commander": "legal",
+      "duel": "legal",
+      "future": "not_legal",
+      "historic": "not_legal",
+      "legacy": "legal",
+      "modern": "not_legal",
+      "oldschool": "legal",
+      "pauper": "legal",
+      "penny": "not_legal",
+      "pioneer": "not_legal",
+      "standard": "not_legal",
+      "vintage": "legal"
+    },
+    "mana_cost": "{X}{U}",
+    "name": "Power Sink",
+    "prices": [
+      [
+        "MIR",
+        "0.11"
+      ],
+      [
+        "USG",
+        "0.09"
+      ],
+      [
+        "TMP",
+        "0.09"
+      ],
+      [
+        "VMA",
+        "0.04"
+      ]
+    ],
+    "scryfall_uri": "https://scryfall.com/card/fbb/74/fr/siphon-d%C3%A9nergie?utm_source=api",
+    "type": "Instant"
+  },
   "Predator's Gambit": {
     "best_price": [
       "AVR",
@@ -49960,7 +50730,7 @@
   "Quirion Ranger": {
     "best_price": [
       "PRM",
-      "4.95"
+      "5.11"
     ],
     "cmc": 1.0,
     "colors": [
@@ -50003,7 +50773,7 @@
       ],
       [
         "PRM",
-        "4.95"
+        "5.11"
       ]
     ],
     "scryfall_uri": "https://scryfall.com/card/f01/9/quirion-ranger?utm_source=api",
@@ -50400,6 +51170,50 @@
     "scryfall_uri": "https://scryfall.com/card/mb1/204/rally-the-peasants?utm_source=api",
     "type": "Instant"
   },
+  "Ram Through": {
+    "best_price": [
+      "IKO",
+      "0.01"
+    ],
+    "cmc": 2.0,
+    "colors": [
+      "G"
+    ],
+    "image_uris": {
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/a/c/ac0b24e7-14e7-45ee-b5d8-bdb8674b669c.jpg?1591723419",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/a/c/ac0b24e7-14e7-45ee-b5d8-bdb8674b669c.jpg?1591723419",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/a/c/ac0b24e7-14e7-45ee-b5d8-bdb8674b669c.jpg?1591723419",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/c/ac0b24e7-14e7-45ee-b5d8-bdb8674b669c.jpg?1591723419",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/a/c/ac0b24e7-14e7-45ee-b5d8-bdb8674b669c.png?1591723419",
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/a/c/ac0b24e7-14e7-45ee-b5d8-bdb8674b669c.jpg?1591723419"
+    },
+    "is_land": false,
+    "legalities": {
+      "brawl": "legal",
+      "commander": "legal",
+      "duel": "legal",
+      "future": "legal",
+      "historic": "legal",
+      "legacy": "legal",
+      "modern": "legal",
+      "oldschool": "not_legal",
+      "pauper": "legal",
+      "penny": "legal",
+      "pioneer": "legal",
+      "standard": "legal",
+      "vintage": "legal"
+    },
+    "mana_cost": "{1}{G}",
+    "name": "Ram Through",
+    "prices": [
+      [
+        "IKO",
+        "0.01"
+      ]
+    ],
+    "scryfall_uri": "https://scryfall.com/card/iko/170/ram-through?utm_source=api",
+    "type": "Instant"
+  },
   "Ramosian Lieutenant": {
     "best_price": [
       "MMQ",
@@ -50447,7 +51261,7 @@
   "Ramosian Rally": {
     "best_price": [
       "MMQ",
-      "0.46"
+      "0.41"
     ],
     "cmc": 4.0,
     "colors": [
@@ -50482,7 +51296,7 @@
     "prices": [
       [
         "MMQ",
-        "0.46"
+        "0.41"
       ]
     ],
     "scryfall_uri": "https://scryfall.com/card/mmq/38/ramosian-rally?utm_source=api",
@@ -52776,6 +53590,50 @@
     "scryfall_uri": "https://scryfall.com/card/mb1/212/rhet-crop-spearmaster?utm_source=api",
     "type": "Creature \u2014 Human Warrior"
   },
+  "Rhystic Circle": {
+    "best_price": [
+      "PCY",
+      "0.04"
+    ],
+    "cmc": 4.0,
+    "colors": [
+      "W"
+    ],
+    "image_uris": {
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/4/a/4a76711e-b508-4bb7-a87c-911a11905af3.jpg?1562908633",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/4/a/4a76711e-b508-4bb7-a87c-911a11905af3.jpg?1562908633",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/4/a/4a76711e-b508-4bb7-a87c-911a11905af3.jpg?1562908633",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/a/4a76711e-b508-4bb7-a87c-911a11905af3.jpg?1562908633",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/4/a/4a76711e-b508-4bb7-a87c-911a11905af3.png?1562908633",
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/4/a/4a76711e-b508-4bb7-a87c-911a11905af3.jpg?1562908633"
+    },
+    "is_land": false,
+    "legalities": {
+      "brawl": "not_legal",
+      "commander": "legal",
+      "duel": "legal",
+      "future": "not_legal",
+      "historic": "not_legal",
+      "legacy": "legal",
+      "modern": "not_legal",
+      "oldschool": "not_legal",
+      "pauper": "legal",
+      "penny": "not_legal",
+      "pioneer": "not_legal",
+      "standard": "not_legal",
+      "vintage": "legal"
+    },
+    "mana_cost": "{2}{W}{W}",
+    "name": "Rhystic Circle",
+    "prices": [
+      [
+        "PCY",
+        "0.04"
+      ]
+    ],
+    "scryfall_uri": "https://scryfall.com/card/pcy/19/rhystic-circle?utm_source=api",
+    "type": "Enchantment"
+  },
   "Ribbons of the Reikai": {
     "best_price": [
       "BOK",
@@ -52861,19 +53719,19 @@
         "0.30"
       ],
       [
-        "TSP",
-        "0.07"
-      ],
-      [
         "PRM",
         "0.07"
       ],
       [
-        "MMA",
-        "0.05"
+        "TSP",
+        "0.06"
       ],
       [
         "TD0",
+        "0.06"
+      ],
+      [
+        "MMA",
         "0.05"
       ]
     ],
@@ -55894,6 +56752,52 @@
     "scryfall_uri": "https://scryfall.com/card/psal/L44/it/santuario-di-selesnya?utm_source=api",
     "type": "Land"
   },
+  "Self-Assembler": {
+    "best_price": [
+      "KLD",
+      "0.03"
+    ],
+    "cmc": 5.0,
+    "colors": [],
+    "image_uris": {
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/8/6/86527a1f-d9a6-403e-b42d-89de84653e9b.jpg?1605330101",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/8/6/86527a1f-d9a6-403e-b42d-89de84653e9b.jpg?1605330101",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/8/6/86527a1f-d9a6-403e-b42d-89de84653e9b.jpg?1605330101",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/8/6/86527a1f-d9a6-403e-b42d-89de84653e9b.jpg?1605330101",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/8/6/86527a1f-d9a6-403e-b42d-89de84653e9b.png?1605330101",
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/8/6/86527a1f-d9a6-403e-b42d-89de84653e9b.jpg?1605330101"
+    },
+    "is_land": false,
+    "legalities": {
+      "brawl": "not_legal",
+      "commander": "legal",
+      "duel": "legal",
+      "future": "not_legal",
+      "historic": "legal",
+      "legacy": "legal",
+      "modern": "legal",
+      "oldschool": "not_legal",
+      "pauper": "legal",
+      "penny": "legal",
+      "pioneer": "legal",
+      "standard": "not_legal",
+      "vintage": "legal"
+    },
+    "mana_cost": "{5}",
+    "name": "Self-Assembler",
+    "prices": [
+      [
+        "A25",
+        "0.05"
+      ],
+      [
+        "KLD",
+        "0.03"
+      ]
+    ],
+    "scryfall_uri": "https://scryfall.com/card/klr/269/self-assembler?utm_source=api",
+    "type": "Artifact Creature \u2014 Assembly-Worker"
+  },
   "Selfless Cathar": {
     "best_price": [
       "ISD",
@@ -56751,6 +57655,50 @@
     ],
     "scryfall_uri": "https://scryfall.com/card/exo/102/shattering-pulse?utm_source=api",
     "type": "Instant"
+  },
+  "Sheer Drop": {
+    "best_price": [
+      "BFZ",
+      "0.02"
+    ],
+    "cmc": 3.0,
+    "colors": [
+      "W"
+    ],
+    "image_uris": {
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/c/6/c6630f43-1513-4ef0-b80e-4036414463f2.jpg?1573506385",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/c/6/c6630f43-1513-4ef0-b80e-4036414463f2.jpg?1573506385",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/c/6/c6630f43-1513-4ef0-b80e-4036414463f2.jpg?1573506385",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/6/c6630f43-1513-4ef0-b80e-4036414463f2.jpg?1573506385",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/c/6/c6630f43-1513-4ef0-b80e-4036414463f2.png?1573506385",
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/c/6/c6630f43-1513-4ef0-b80e-4036414463f2.jpg?1573506385"
+    },
+    "is_land": false,
+    "legalities": {
+      "brawl": "not_legal",
+      "commander": "legal",
+      "duel": "legal",
+      "future": "not_legal",
+      "historic": "not_legal",
+      "legacy": "legal",
+      "modern": "legal",
+      "oldschool": "not_legal",
+      "pauper": "legal",
+      "penny": "legal",
+      "pioneer": "legal",
+      "standard": "not_legal",
+      "vintage": "legal"
+    },
+    "mana_cost": "{2}{W}",
+    "name": "Sheer Drop",
+    "prices": [
+      [
+        "BFZ",
+        "0.02"
+      ]
+    ],
+    "scryfall_uri": "https://scryfall.com/card/mb1/226/sheer-drop?utm_source=api",
+    "type": "Sorcery"
   },
   "Shelter": {
     "best_price": [
@@ -57668,7 +58616,7 @@
   "Silhana Ledgewalker": {
     "best_price": [
       "GPT",
-      "0.04"
+      "0.03"
     ],
     "cmc": 2.0,
     "colors": [
@@ -57707,7 +58655,7 @@
       ],
       [
         "GPT",
-        "0.04"
+        "0.03"
       ]
     ],
     "scryfall_uri": "https://scryfall.com/card/mb1/1334/silhana-ledgewalker?utm_source=api",
@@ -57808,7 +58756,7 @@
   "Simic Growth Chamber": {
     "best_price": [
       "MM2",
-      "0.17"
+      "0.19"
     ],
     "cmc": 0.0,
     "colors": [],
@@ -57856,12 +58804,12 @@
         "0.21"
       ],
       [
-        "DIS",
+        "MM2",
         "0.19"
       ],
       [
-        "MM2",
-        "0.17"
+        "DIS",
+        "0.19"
       ]
     ],
     "scryfall_uri": "https://scryfall.com/card/gk2/131/simic-growth-chamber?utm_source=api",
@@ -58310,7 +59258,7 @@
   "Skred": {
     "best_price": [
       "CSP",
-      "1.37"
+      "1.08"
     ],
     "cmc": 1.0,
     "colors": [
@@ -58345,7 +59293,7 @@
     "prices": [
       [
         "CSP",
-        "1.37"
+        "1.08"
       ]
     ],
     "scryfall_uri": "https://scryfall.com/card/plist/155/skred?utm_source=api",
@@ -58717,7 +59665,7 @@
     "prices": [
       [
         "UMA",
-        "1.80"
+        "1.74"
       ],
       [
         "EVE",
@@ -59312,7 +60260,7 @@
     "prices": [
       [
         "ULG",
-        "0.75"
+        "0.43"
       ],
       [
         "PRM",
@@ -59406,11 +60354,11 @@
       ],
       [
         "ME2",
-        "0.38"
+        "0.43"
       ],
       [
         "CSP",
-        "0.21"
+        "0.24"
       ],
       [
         "MH1",
@@ -59456,11 +60404,11 @@
     "prices": [
       [
         "ME2",
-        "1.96"
+        "1.41"
       ],
       [
         "CSP",
-        "1.90"
+        "1.00"
       ],
       [
         "ICE",
@@ -59473,7 +60421,7 @@
   "Snow-Covered Mountain": {
     "best_price": [
       "MH1",
-      "0.08"
+      "0.09"
     ],
     "cmc": 0.0,
     "colors": [],
@@ -59506,7 +60454,7 @@
     "prices": [
       [
         "CSP",
-        "0.29"
+        "0.30"
       ],
       [
         "ME2",
@@ -59514,11 +60462,11 @@
       ],
       [
         "ICE",
-        "0.15"
+        "0.14"
       ],
       [
         "MH1",
-        "0.08"
+        "0.09"
       ]
     ],
     "scryfall_uri": "https://scryfall.com/card/sld/4/snow-covered-mountain?utm_source=api",
@@ -59527,7 +60475,7 @@
   "Snow-Covered Plains": {
     "best_price": [
       "MH1",
-      "0.18"
+      "0.27"
     ],
     "cmc": 0.0,
     "colors": [],
@@ -59568,7 +60516,7 @@
       ],
       [
         "MH1",
-        "0.18"
+        "0.27"
       ]
     ],
     "scryfall_uri": "https://scryfall.com/card/sld/1/snow-covered-plains?utm_source=api",
@@ -59610,7 +60558,7 @@
     "prices": [
       [
         "ME2",
-        "0.25"
+        "0.29"
       ],
       [
         "MH1",
@@ -59672,8 +60620,8 @@
   },
   "Snuff Out": {
     "best_price": [
-      "MMQ",
-      "9.67"
+      "DDD",
+      "9.68"
     ],
     "cmc": 4.0,
     "colors": [
@@ -59707,15 +60655,59 @@
     "name": "Snuff Out",
     "prices": [
       [
-        "DDD",
-        "9.68"
+        "MMQ",
+        "9.91"
       ],
       [
-        "MMQ",
-        "9.67"
+        "DDD",
+        "9.68"
       ]
     ],
     "scryfall_uri": "https://scryfall.com/card/gvl/53/snuff-out?utm_source=api",
+    "type": "Instant"
+  },
+  "Solfatara": {
+    "best_price": [
+      "VIS",
+      "0.05"
+    ],
+    "cmc": 3.0,
+    "colors": [
+      "R"
+    ],
+    "image_uris": {
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/c/5/c5d4bd6f-b019-4594-aa41-138fa58ba529.jpg?1587913286",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/c/5/c5d4bd6f-b019-4594-aa41-138fa58ba529.jpg?1587913286",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/c/5/c5d4bd6f-b019-4594-aa41-138fa58ba529.jpg?1587913286",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/5/c5d4bd6f-b019-4594-aa41-138fa58ba529.jpg?1587913286",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/c/5/c5d4bd6f-b019-4594-aa41-138fa58ba529.png?1587913286",
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/c/5/c5d4bd6f-b019-4594-aa41-138fa58ba529.jpg?1587913286"
+    },
+    "is_land": false,
+    "legalities": {
+      "brawl": "not_legal",
+      "commander": "legal",
+      "duel": "legal",
+      "future": "not_legal",
+      "historic": "not_legal",
+      "legacy": "legal",
+      "modern": "not_legal",
+      "oldschool": "not_legal",
+      "pauper": "legal",
+      "penny": "not_legal",
+      "pioneer": "not_legal",
+      "standard": "not_legal",
+      "vintage": "legal"
+    },
+    "mana_cost": "{2}{R}",
+    "name": "Solfatara",
+    "prices": [
+      [
+        "VIS",
+        "0.05"
+      ]
+    ],
+    "scryfall_uri": "https://scryfall.com/card/vis/93/solfatara?utm_source=api",
     "type": "Instant"
   },
   "Solid Footing": {
@@ -60465,7 +61457,7 @@
     "prices": [
       [
         "MP2",
-        "0.49"
+        "0.54"
       ],
       [
         "XLN",
@@ -61517,7 +62509,7 @@
   "Standard Bearer": {
     "best_price": [
       "APC",
-      "0.89"
+      "0.84"
     ],
     "cmc": 2.0,
     "colors": [
@@ -61552,7 +62544,7 @@
     "prices": [
       [
         "APC",
-        "0.89"
+        "0.84"
       ]
     ],
     "scryfall_uri": "https://scryfall.com/card/apc/18/standard-bearer?utm_source=api",
@@ -62473,6 +63465,50 @@
     "scryfall_uri": "https://scryfall.com/card/m14/157/striking-sliver?utm_source=api",
     "type": "Creature \u2014 Sliver"
   },
+  "Striped Riverwinder": {
+    "best_price": [
+      "HOU",
+      "0.03"
+    ],
+    "cmc": 7.0,
+    "colors": [
+      "U"
+    ],
+    "image_uris": {
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/4/4/4466da89-7380-4fad-9304-7b580c577975.jpg?1597173386",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/4/4/4466da89-7380-4fad-9304-7b580c577975.jpg?1597173386",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/4/4/4466da89-7380-4fad-9304-7b580c577975.jpg?1597173386",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/4/4466da89-7380-4fad-9304-7b580c577975.jpg?1597173386",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/4/4/4466da89-7380-4fad-9304-7b580c577975.png?1597173386",
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/4/4/4466da89-7380-4fad-9304-7b580c577975.jpg?1597173386"
+    },
+    "is_land": false,
+    "legalities": {
+      "brawl": "not_legal",
+      "commander": "legal",
+      "duel": "legal",
+      "future": "not_legal",
+      "historic": "legal",
+      "legacy": "legal",
+      "modern": "legal",
+      "oldschool": "not_legal",
+      "pauper": "legal",
+      "penny": "legal",
+      "pioneer": "legal",
+      "standard": "not_legal",
+      "vintage": "legal"
+    },
+    "mana_cost": "{6}{U}",
+    "name": "Striped Riverwinder",
+    "prices": [
+      [
+        "HOU",
+        "0.03"
+      ]
+    ],
+    "scryfall_uri": "https://scryfall.com/card/akr/82/striped-riverwinder?utm_source=api",
+    "type": "Creature \u2014 Serpent"
+  },
   "Sulfur Vent": {
     "best_price": [
       "INV",
@@ -62933,7 +63969,7 @@
   "Sunscape Familiar": {
     "best_price": [
       "PLS",
-      "1.20"
+      "1.11"
     ],
     "cmc": 2.0,
     "colors": [
@@ -62968,7 +64004,7 @@
     "prices": [
       [
         "PLS",
-        "1.20"
+        "1.11"
       ]
     ],
     "scryfall_uri": "https://scryfall.com/card/pls/17/sunscape-familiar?utm_source=api",
@@ -64151,7 +65187,7 @@
   "Swirling Sandstorm": {
     "best_price": [
       "JUD",
-      "0.25"
+      "0.23"
     ],
     "cmc": 4.0,
     "colors": [
@@ -64186,7 +65222,7 @@
     "prices": [
       [
         "JUD",
-        "0.25"
+        "0.23"
       ]
     ],
     "scryfall_uri": "https://scryfall.com/card/jud/102/swirling-sandstorm?utm_source=api",
@@ -64654,6 +65690,50 @@
       ]
     ],
     "scryfall_uri": "https://scryfall.com/card/emn/76/take-inventory?utm_source=api",
+    "type": "Sorcery"
+  },
+  "Take Vengeance": {
+    "best_price": [
+      "M19",
+      "0.03"
+    ],
+    "cmc": 2.0,
+    "colors": [
+      "W"
+    ],
+    "image_uris": {
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/0/d/0dc876ea-f4fa-411d-b57d-f2eab6491abb.jpg?1573506601",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/0/d/0dc876ea-f4fa-411d-b57d-f2eab6491abb.jpg?1573506601",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/0/d/0dc876ea-f4fa-411d-b57d-f2eab6491abb.jpg?1573506601",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/d/0dc876ea-f4fa-411d-b57d-f2eab6491abb.jpg?1573506601",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/0/d/0dc876ea-f4fa-411d-b57d-f2eab6491abb.png?1573506601",
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/0/d/0dc876ea-f4fa-411d-b57d-f2eab6491abb.jpg?1573506601"
+    },
+    "is_land": false,
+    "legalities": {
+      "brawl": "not_legal",
+      "commander": "legal",
+      "duel": "legal",
+      "future": "not_legal",
+      "historic": "legal",
+      "legacy": "legal",
+      "modern": "legal",
+      "oldschool": "not_legal",
+      "pauper": "legal",
+      "penny": "legal",
+      "pioneer": "legal",
+      "standard": "not_legal",
+      "vintage": "legal"
+    },
+    "mana_cost": "{1}{W}",
+    "name": "Take Vengeance",
+    "prices": [
+      [
+        "M19",
+        "0.03"
+      ]
+    ],
+    "scryfall_uri": "https://scryfall.com/card/mb1/254/take-vengeance?utm_source=api",
     "type": "Sorcery"
   },
   "Talons of Wildwood": {
@@ -65787,7 +66867,7 @@
   "Thermokarst": {
     "best_price": [
       "ME2",
-      "1.00"
+      "0.96"
     ],
     "cmc": 3.0,
     "colors": [
@@ -65822,7 +66902,7 @@
     "prices": [
       [
         "ME2",
-        "1.00"
+        "0.96"
       ]
     ],
     "scryfall_uri": "https://scryfall.com/card/ice/268/thermokarst?utm_source=api",
@@ -65931,7 +67011,7 @@
   "Thorn of the Black Rose": {
     "best_price": [
       "PZ2",
-      "0.81"
+      "0.98"
     ],
     "cmc": 4.0,
     "colors": [
@@ -65966,11 +67046,11 @@
     "prices": [
       [
         "CMR",
-        "0.95"
+        "1.08"
       ],
       [
         "PZ2",
-        "0.81"
+        "0.98"
       ]
     ],
     "scryfall_uri": "https://scryfall.com/card/mb1/792/thorn-of-the-black-rose?utm_source=api",
@@ -66408,6 +67488,74 @@
     "name": "Thriving Bluff",
     "prices": [],
     "scryfall_uri": "https://scryfall.com/card/jmp/33/thriving-bluff?utm_source=api",
+    "type": "Land"
+  },
+  "Thriving Grove": {
+    "best_price": null,
+    "cmc": 0.0,
+    "colors": [],
+    "image_uris": {
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/7/9/79cabbe0-1c44-4888-8ebc-25a4c3e2c5d7.jpg?1600714968",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/7/9/79cabbe0-1c44-4888-8ebc-25a4c3e2c5d7.jpg?1600714968",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/7/9/79cabbe0-1c44-4888-8ebc-25a4c3e2c5d7.jpg?1600714968",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/9/79cabbe0-1c44-4888-8ebc-25a4c3e2c5d7.jpg?1600714968",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/7/9/79cabbe0-1c44-4888-8ebc-25a4c3e2c5d7.png?1600714968",
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/7/9/79cabbe0-1c44-4888-8ebc-25a4c3e2c5d7.jpg?1600714968"
+    },
+    "is_land": true,
+    "legalities": {
+      "brawl": "not_legal",
+      "commander": "legal",
+      "duel": "legal",
+      "future": "not_legal",
+      "historic": "legal",
+      "legacy": "legal",
+      "modern": "not_legal",
+      "oldschool": "not_legal",
+      "pauper": "legal",
+      "penny": "not_legal",
+      "pioneer": "not_legal",
+      "standard": "not_legal",
+      "vintage": "legal"
+    },
+    "mana_cost": "",
+    "name": "Thriving Grove",
+    "prices": [],
+    "scryfall_uri": "https://scryfall.com/card/jmp/34/thriving-grove?utm_source=api",
+    "type": "Land"
+  },
+  "Thriving Isle": {
+    "best_price": null,
+    "cmc": 0.0,
+    "colors": [],
+    "image_uris": {
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/7/e/7eb8fd94-2b59-4b05-b4d0-c93497301d19.jpg?1600694400",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/7/e/7eb8fd94-2b59-4b05-b4d0-c93497301d19.jpg?1600694400",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/7/e/7eb8fd94-2b59-4b05-b4d0-c93497301d19.jpg?1600694400",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/e/7eb8fd94-2b59-4b05-b4d0-c93497301d19.jpg?1600694400",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/7/e/7eb8fd94-2b59-4b05-b4d0-c93497301d19.png?1600694400",
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/7/e/7eb8fd94-2b59-4b05-b4d0-c93497301d19.jpg?1600694400"
+    },
+    "is_land": true,
+    "legalities": {
+      "brawl": "not_legal",
+      "commander": "legal",
+      "duel": "legal",
+      "future": "not_legal",
+      "historic": "legal",
+      "legacy": "legal",
+      "modern": "not_legal",
+      "oldschool": "not_legal",
+      "pauper": "legal",
+      "penny": "not_legal",
+      "pioneer": "not_legal",
+      "standard": "not_legal",
+      "vintage": "legal"
+    },
+    "mana_cost": "",
+    "name": "Thriving Isle",
+    "prices": [],
+    "scryfall_uri": "https://scryfall.com/card/jmp/36/thriving-isle?utm_source=api",
     "type": "Land"
   },
   "Thriving Moor": {
@@ -66907,7 +68055,7 @@
       ],
       [
         "EMA",
-        "0.21"
+        "0.23"
       ],
       [
         "LGN",
@@ -67058,7 +68206,7 @@
   "Tireless Tribe": {
     "best_price": [
       "ODY",
-      "0.06"
+      "0.05"
     ],
     "cmc": 1.0,
     "colors": [
@@ -67093,7 +68241,7 @@
     "prices": [
       [
         "ODY",
-        "0.06"
+        "0.05"
       ]
     ],
     "scryfall_uri": "https://scryfall.com/card/ody/56/tireless-tribe?utm_source=api",
@@ -68692,6 +69840,50 @@
     "scryfall_uri": "https://scryfall.com/card/som/218/tumble-magnet?utm_source=api",
     "type": "Artifact"
   },
+  "Turf Wound": {
+    "best_price": [
+      "INV",
+      "0.05"
+    ],
+    "cmc": 3.0,
+    "colors": [
+      "R"
+    ],
+    "image_uris": {
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/9/1/91392e9f-f96a-4ac5-b1f1-c73540cf249e.jpg?1562924301",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/9/1/91392e9f-f96a-4ac5-b1f1-c73540cf249e.jpg?1562924301",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/9/1/91392e9f-f96a-4ac5-b1f1-c73540cf249e.jpg?1562924301",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/1/91392e9f-f96a-4ac5-b1f1-c73540cf249e.jpg?1562924301",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/9/1/91392e9f-f96a-4ac5-b1f1-c73540cf249e.png?1562924301",
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/9/1/91392e9f-f96a-4ac5-b1f1-c73540cf249e.jpg?1562924301"
+    },
+    "is_land": false,
+    "legalities": {
+      "brawl": "not_legal",
+      "commander": "legal",
+      "duel": "legal",
+      "future": "not_legal",
+      "historic": "not_legal",
+      "legacy": "legal",
+      "modern": "not_legal",
+      "oldschool": "not_legal",
+      "pauper": "legal",
+      "penny": "not_legal",
+      "pioneer": "not_legal",
+      "standard": "not_legal",
+      "vintage": "legal"
+    },
+    "mana_cost": "{2}{R}",
+    "name": "Turf Wound",
+    "prices": [
+      [
+        "INV",
+        "0.05"
+      ]
+    ],
+    "scryfall_uri": "https://scryfall.com/card/inv/177/turf-wound?utm_source=api",
+    "type": "Instant"
+  },
   "Turn Aside": {
     "best_price": [
       "EMN",
@@ -69572,6 +70764,50 @@
     "scryfall_uri": "https://scryfall.com/card/m15/120/unmake-the-graves?utm_source=api",
     "type": "Instant"
   },
+  "Unwind": {
+    "best_price": [
+      "DOM",
+      "0.03"
+    ],
+    "cmc": 3.0,
+    "colors": [
+      "U"
+    ],
+    "image_uris": {
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/9/7/97da6607-9131-4f8b-8af3-63439a59b78b.jpg?1562739909",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/9/7/97da6607-9131-4f8b-8af3-63439a59b78b.jpg?1562739909",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/9/7/97da6607-9131-4f8b-8af3-63439a59b78b.jpg?1562739909",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/7/97da6607-9131-4f8b-8af3-63439a59b78b.jpg?1562739909",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/9/7/97da6607-9131-4f8b-8af3-63439a59b78b.png?1562739909",
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/9/7/97da6607-9131-4f8b-8af3-63439a59b78b.jpg?1562739909"
+    },
+    "is_land": false,
+    "legalities": {
+      "brawl": "not_legal",
+      "commander": "legal",
+      "duel": "legal",
+      "future": "not_legal",
+      "historic": "legal",
+      "legacy": "legal",
+      "modern": "legal",
+      "oldschool": "not_legal",
+      "pauper": "legal",
+      "penny": "legal",
+      "pioneer": "legal",
+      "standard": "not_legal",
+      "vintage": "legal"
+    },
+    "mana_cost": "{2}{U}",
+    "name": "Unwind",
+    "prices": [
+      [
+        "DOM",
+        "0.03"
+      ]
+    ],
+    "scryfall_uri": "https://scryfall.com/card/dom/72/unwind?utm_source=api",
+    "type": "Instant"
+  },
   "Urgent Exorcism": {
     "best_price": [
       "ISD",
@@ -69616,10 +70852,220 @@
     "scryfall_uri": "https://scryfall.com/card/isd/40/urgent-exorcism?utm_source=api",
     "type": "Instant"
   },
+  "Urza's Mine": {
+    "best_price": [
+      "2XM",
+      "0.03"
+    ],
+    "cmc": 0.0,
+    "colors": [],
+    "image_uris": {
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/e/1/e17d4495-efce-40e3-aa94-27d45b4ce636.jpg?1562487418",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/e/1/e17d4495-efce-40e3-aa94-27d45b4ce636.jpg?1562487418",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/e/1/e17d4495-efce-40e3-aa94-27d45b4ce636.jpg?1562487418",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/e/1/e17d4495-efce-40e3-aa94-27d45b4ce636.jpg?1562487418",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/e/1/e17d4495-efce-40e3-aa94-27d45b4ce636.png?1562487418",
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/e/1/e17d4495-efce-40e3-aa94-27d45b4ce636.jpg?1562487418"
+    },
+    "is_land": true,
+    "legalities": {
+      "brawl": "not_legal",
+      "commander": "legal",
+      "duel": "legal",
+      "future": "not_legal",
+      "historic": "not_legal",
+      "legacy": "legal",
+      "modern": "legal",
+      "oldschool": "legal",
+      "pauper": "legal",
+      "penny": "not_legal",
+      "pioneer": "not_legal",
+      "standard": "not_legal",
+      "vintage": "legal"
+    },
+    "mana_cost": "",
+    "name": "Urza's Mine",
+    "prices": [
+      [
+        "ME4",
+        "0.68"
+      ],
+      [
+        "ME4",
+        "0.30"
+      ],
+      [
+        "9ED",
+        "0.16"
+      ],
+      [
+        "8ED",
+        "0.14"
+      ],
+      [
+        "ME4",
+        "0.11"
+      ],
+      [
+        "PRM",
+        "0.04"
+      ],
+      [
+        "2XM",
+        "0.03"
+      ],
+      [
+        "ME4",
+        "0.03"
+      ]
+    ],
+    "scryfall_uri": "https://scryfall.com/card/rin/178/it/miniera-di-urza?utm_source=api",
+    "type": "Land \u2014 Urza\u2019s Mine"
+  },
+  "Urza's Power Plant": {
+    "best_price": [
+      "2XM",
+      "0.03"
+    ],
+    "cmc": 0.0,
+    "colors": [],
+    "image_uris": {
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/4/a/4a86d6b5-946e-41e4-9c78-edec3f5bb981.jpg?1562486489",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/4/a/4a86d6b5-946e-41e4-9c78-edec3f5bb981.jpg?1562486489",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/4/a/4a86d6b5-946e-41e4-9c78-edec3f5bb981.jpg?1562486489",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/a/4a86d6b5-946e-41e4-9c78-edec3f5bb981.jpg?1562486489",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/4/a/4a86d6b5-946e-41e4-9c78-edec3f5bb981.png?1562486489",
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/4/a/4a86d6b5-946e-41e4-9c78-edec3f5bb981.jpg?1562486489"
+    },
+    "is_land": true,
+    "legalities": {
+      "brawl": "not_legal",
+      "commander": "legal",
+      "duel": "legal",
+      "future": "not_legal",
+      "historic": "not_legal",
+      "legacy": "legal",
+      "modern": "legal",
+      "oldschool": "legal",
+      "pauper": "legal",
+      "penny": "legal",
+      "pioneer": "not_legal",
+      "standard": "not_legal",
+      "vintage": "legal"
+    },
+    "mana_cost": "",
+    "name": "Urza's Power Plant",
+    "prices": [
+      [
+        "ME4",
+        "0.44"
+      ],
+      [
+        "ME4",
+        "0.12"
+      ],
+      [
+        "9ED",
+        "0.09"
+      ],
+      [
+        "ME4",
+        "0.05"
+      ],
+      [
+        "8ED",
+        "0.05"
+      ],
+      [
+        "PRM",
+        "0.04"
+      ],
+      [
+        "2XM",
+        "0.03"
+      ],
+      [
+        "ME4",
+        "0.03"
+      ]
+    ],
+    "scryfall_uri": "https://scryfall.com/card/rin/182/it/centrale-energetica-di-urza?utm_source=api",
+    "type": "Land \u2014 Urza\u2019s Power-Plant"
+  },
+  "Urza's Tower": {
+    "best_price": [
+      "2XM",
+      "0.03"
+    ],
+    "cmc": 0.0,
+    "colors": [],
+    "image_uris": {
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/d/c/dc2c039e-fbf9-4e45-874d-b0ab0d923e52.jpg?1562487415",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/d/c/dc2c039e-fbf9-4e45-874d-b0ab0d923e52.jpg?1562487415",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/d/c/dc2c039e-fbf9-4e45-874d-b0ab0d923e52.jpg?1562487415",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/c/dc2c039e-fbf9-4e45-874d-b0ab0d923e52.jpg?1562487415",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/d/c/dc2c039e-fbf9-4e45-874d-b0ab0d923e52.png?1562487415",
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/d/c/dc2c039e-fbf9-4e45-874d-b0ab0d923e52.jpg?1562487415"
+    },
+    "is_land": true,
+    "legalities": {
+      "brawl": "not_legal",
+      "commander": "legal",
+      "duel": "legal",
+      "future": "not_legal",
+      "historic": "not_legal",
+      "legacy": "legal",
+      "modern": "legal",
+      "oldschool": "legal",
+      "pauper": "legal",
+      "penny": "legal",
+      "pioneer": "not_legal",
+      "standard": "not_legal",
+      "vintage": "legal"
+    },
+    "mana_cost": "",
+    "name": "Urza's Tower",
+    "prices": [
+      [
+        "ME4",
+        "0.23"
+      ],
+      [
+        "ME4",
+        "0.14"
+      ],
+      [
+        "8ED",
+        "0.07"
+      ],
+      [
+        "9ED",
+        "0.05"
+      ],
+      [
+        "ME4",
+        "0.04"
+      ],
+      [
+        "PRM",
+        "0.04"
+      ],
+      [
+        "2XM",
+        "0.03"
+      ],
+      [
+        "ME4",
+        "0.03"
+      ]
+    ],
+    "scryfall_uri": "https://scryfall.com/card/rin/186/it/torre-di-urza?utm_source=api",
+    "type": "Land \u2014 Urza\u2019s Tower"
+  },
   "Utopia Sprawl": {
     "best_price": [
       "DIS",
-      "2.61"
+      "2.37"
     ],
     "cmc": 1.0,
     "colors": [
@@ -69654,11 +71100,11 @@
     "prices": [
       [
         "A25",
-        "3.32"
+        "3.40"
       ],
       [
         "DIS",
-        "2.61"
+        "2.37"
       ]
     ],
     "scryfall_uri": "https://scryfall.com/card/dis/99/utopia-sprawl?utm_source=api",
@@ -69804,19 +71250,19 @@
   "Vampire Hounds": {
     "best_price": [
       "TPR",
-      "0.05"
+      "0.03"
     ],
     "cmc": 3.0,
     "colors": [
       "B"
     ],
     "image_uris": {
-      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/7/4/746bc301-9f08-4d9b-819e-690f6fce6bc8.jpg?1562088293",
-      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/7/4/746bc301-9f08-4d9b-819e-690f6fce6bc8.jpg?1562088293",
-      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/7/4/746bc301-9f08-4d9b-819e-690f6fce6bc8.jpg?1562088293",
-      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/4/746bc301-9f08-4d9b-819e-690f6fce6bc8.jpg?1562088293",
-      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/7/4/746bc301-9f08-4d9b-819e-690f6fce6bc8.png?1562088293",
-      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/7/4/746bc301-9f08-4d9b-819e-690f6fce6bc8.jpg?1562088293"
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/5/9/59339026-3ec6-4bd9-a1c4-c80951f8c68d.jpg?1562429375",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/5/9/59339026-3ec6-4bd9-a1c4-c80951f8c68d.jpg?1562429375",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/5/9/59339026-3ec6-4bd9-a1c4-c80951f8c68d.jpg?1562429375",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/9/59339026-3ec6-4bd9-a1c4-c80951f8c68d.jpg?1562429375",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/5/9/59339026-3ec6-4bd9-a1c4-c80951f8c68d.png?1562429375",
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/5/9/59339026-3ec6-4bd9-a1c4-c80951f8c68d.jpg?1562429375"
     },
     "is_land": false,
     "legalities": {
@@ -69838,15 +71284,15 @@
     "name": "Vampire Hounds",
     "prices": [
       [
-        "TPR",
+        "EXO",
         "0.05"
       ],
       [
-        "EXO",
-        "0.05"
+        "TPR",
+        "0.03"
       ]
     ],
-    "scryfall_uri": "https://scryfall.com/card/exo/77/vampire-hounds?utm_source=api",
+    "scryfall_uri": "https://scryfall.com/card/tpr/122/vampire-hounds?utm_source=api",
     "type": "Creature \u2014 Vampire Dog"
   },
   "Vampire Lacerator": {
@@ -71889,8 +73335,8 @@
   },
   "Wall of Roots": {
     "best_price": [
-      "TSB",
-      "0.10"
+      "IMA",
+      "0.12"
     ],
     "cmc": 2.0,
     "colors": [
@@ -71928,16 +73374,16 @@
         "0.14"
       ],
       [
+        "TSB",
+        "0.13"
+      ],
+      [
         "PRM",
         "0.13"
       ],
       [
         "IMA",
-        "0.11"
-      ],
-      [
-        "TSB",
-        "0.10"
+        "0.12"
       ]
     ],
     "scryfall_uri": "https://scryfall.com/card/f08/7/wall-of-roots?utm_source=api",
@@ -72224,6 +73670,50 @@
     ],
     "scryfall_uri": "https://scryfall.com/card/mor/82/warren-weirding?utm_source=api",
     "type": "Tribal Sorcery \u2014 Goblin"
+  },
+  "Watcher in the Web": {
+    "best_price": [
+      "SOI",
+      "0.03"
+    ],
+    "cmc": 5.0,
+    "colors": [
+      "G"
+    ],
+    "image_uris": {
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/0/b/0b6a0d46-d32d-4eb3-963b-2a952b6fdc83.jpg?1573514816",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/0/b/0b6a0d46-d32d-4eb3-963b-2a952b6fdc83.jpg?1573514816",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/0/b/0b6a0d46-d32d-4eb3-963b-2a952b6fdc83.jpg?1573514816",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/b/0b6a0d46-d32d-4eb3-963b-2a952b6fdc83.jpg?1573514816",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/0/b/0b6a0d46-d32d-4eb3-963b-2a952b6fdc83.png?1573514816",
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/0/b/0b6a0d46-d32d-4eb3-963b-2a952b6fdc83.jpg?1573514816"
+    },
+    "is_land": false,
+    "legalities": {
+      "brawl": "not_legal",
+      "commander": "legal",
+      "duel": "legal",
+      "future": "not_legal",
+      "historic": "not_legal",
+      "legacy": "legal",
+      "modern": "legal",
+      "oldschool": "not_legal",
+      "pauper": "legal",
+      "penny": "legal",
+      "pioneer": "legal",
+      "standard": "not_legal",
+      "vintage": "legal"
+    },
+    "mana_cost": "{4}{G}",
+    "name": "Watcher in the Web",
+    "prices": [
+      [
+        "SOI",
+        "0.03"
+      ]
+    ],
+    "scryfall_uri": "https://scryfall.com/card/mb1/1369/watcher-in-the-web?utm_source=api",
+    "type": "Creature \u2014 Spider"
   },
   "Waterfront Bouncer": {
     "best_price": [
@@ -73040,7 +74530,7 @@
   "Wild Growth": {
     "best_price": [
       "7ED",
-      "4.57"
+      "4.42"
     ],
     "cmc": 1.0,
     "colors": [
@@ -73075,7 +74565,7 @@
     "prices": [
       [
         "7ED",
-        "4.57"
+        "4.42"
       ]
     ],
     "scryfall_uri": "https://scryfall.com/card/fbb/230/fr/v%C3%A9g%C3%A9tation-luxuriante?utm_source=api",
