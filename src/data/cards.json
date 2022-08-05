@@ -37402,19 +37402,19 @@
   "Horned Sliver": {
     "best_price": [
       "TPR",
-      "0.03"
+      "0.05"
     ],
     "cmc": 3.0,
     "colors": [
       "G"
     ],
     "image_uris": {
-      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/7/1/71f28575-b1a8-4ed0-9bb2-d72c56b9fee1.jpg?1659127154",
-      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/7/1/71f28575-b1a8-4ed0-9bb2-d72c56b9fee1.jpg?1659127154",
-      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/7/1/71f28575-b1a8-4ed0-9bb2-d72c56b9fee1.jpg?1659127154",
-      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/1/71f28575-b1a8-4ed0-9bb2-d72c56b9fee1.jpg?1659127154",
-      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/7/1/71f28575-b1a8-4ed0-9bb2-d72c56b9fee1.png?1659127154",
-      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/7/1/71f28575-b1a8-4ed0-9bb2-d72c56b9fee1.jpg?1659127154"
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/7/1/71f28575-b1a8-4ed0-9bb2-d72c56b9fee1.jpg?1659656418",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/7/1/71f28575-b1a8-4ed0-9bb2-d72c56b9fee1.jpg?1659656418",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/7/1/71f28575-b1a8-4ed0-9bb2-d72c56b9fee1.jpg?1659656418",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/1/71f28575-b1a8-4ed0-9bb2-d72c56b9fee1.jpg?1659656418",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/7/1/71f28575-b1a8-4ed0-9bb2-d72c56b9fee1.png?1659656418",
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/7/1/71f28575-b1a8-4ed0-9bb2-d72c56b9fee1.jpg?1659656418"
     },
     "is_land": false,
     "legalities": {
@@ -37447,7 +37447,7 @@
       ],
       [
         "TPR",
-        "0.03"
+        "0.05"
       ]
     ],
     "scryfall_uri": "https://scryfall.com/card/sld/649/horned-sliver?utm_source=api",
@@ -43952,20 +43952,20 @@
   },
   "Lava Spike": {
     "best_price": [
-      "MMA",
-      "1.04"
+      "CHK",
+      "0.92"
     ],
     "cmc": 1.0,
     "colors": [
       "R"
     ],
     "image_uris": {
-      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/f/f/ff51dade-d015-44f2-bfe7-862e511a08e2.jpg?1659043356",
-      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/f/f/ff51dade-d015-44f2-bfe7-862e511a08e2.jpg?1659043356",
-      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/f/f/ff51dade-d015-44f2-bfe7-862e511a08e2.jpg?1659043356",
-      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/f/ff51dade-d015-44f2-bfe7-862e511a08e2.jpg?1659043356",
-      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/f/f/ff51dade-d015-44f2-bfe7-862e511a08e2.png?1659043356",
-      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/f/f/ff51dade-d015-44f2-bfe7-862e511a08e2.jpg?1659043356"
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/f/f/ff51dade-d015-44f2-bfe7-862e511a08e2.jpg?1659662142",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/f/f/ff51dade-d015-44f2-bfe7-862e511a08e2.jpg?1659662142",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/f/f/ff51dade-d015-44f2-bfe7-862e511a08e2.jpg?1659662142",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/f/ff51dade-d015-44f2-bfe7-862e511a08e2.jpg?1659662142",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/f/f/ff51dade-d015-44f2-bfe7-862e511a08e2.png?1659662142",
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/f/f/ff51dade-d015-44f2-bfe7-862e511a08e2.jpg?1659662142"
     },
     "is_land": false,
     "legalities": {
@@ -44002,15 +44002,15 @@
       ],
       [
         "TD0",
-        "1.41"
+        "1.17"
       ],
       [
         "MMA",
-        "1.04"
+        "1.03"
       ],
       [
         "CHK",
-        "1.04"
+        "0.92"
       ]
     ],
     "scryfall_uri": "https://scryfall.com/card/ppro/2022-1/lava-spike?utm_source=api",
@@ -84114,12 +84114,12 @@
       "R"
     ],
     "image_uris": {
-      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/d/1/d127e747-fc45-4271-9ab1-cda4043bd43d.jpg?1659127186",
-      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/d/1/d127e747-fc45-4271-9ab1-cda4043bd43d.jpg?1659127186",
-      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/d/1/d127e747-fc45-4271-9ab1-cda4043bd43d.jpg?1659127186",
-      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/1/d127e747-fc45-4271-9ab1-cda4043bd43d.jpg?1659127186",
-      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/d/1/d127e747-fc45-4271-9ab1-cda4043bd43d.png?1659127186",
-      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/d/1/d127e747-fc45-4271-9ab1-cda4043bd43d.jpg?1659127186"
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/d/1/d127e747-fc45-4271-9ab1-cda4043bd43d.jpg?1659656353",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/d/1/d127e747-fc45-4271-9ab1-cda4043bd43d.jpg?1659656353",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/d/1/d127e747-fc45-4271-9ab1-cda4043bd43d.jpg?1659656353",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/1/d127e747-fc45-4271-9ab1-cda4043bd43d.jpg?1659656353",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/d/1/d127e747-fc45-4271-9ab1-cda4043bd43d.png?1659656353",
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/d/1/d127e747-fc45-4271-9ab1-cda4043bd43d.jpg?1659656353"
     },
     "is_land": false,
     "legalities": {
