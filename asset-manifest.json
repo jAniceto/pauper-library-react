@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/pauper-library-react/static/css/main.0de5c018.chunk.css",
-    "main.js": "/pauper-library-react/static/js/main.5749bb69.chunk.js",
-    "main.js.map": "/pauper-library-react/static/js/main.5749bb69.chunk.js.map",
+    "main.css": "/pauper-library-react/static/css/main.75ae8bfb.chunk.css",
+    "main.js": "/pauper-library-react/static/js/main.9bfe17e3.chunk.js",
+    "main.js.map": "/pauper-library-react/static/js/main.9bfe17e3.chunk.js.map",
     "runtime-main.js": "/pauper-library-react/static/js/runtime-main.31d1ce63.js",
     "runtime-main.js.map": "/pauper-library-react/static/js/runtime-main.31d1ce63.js.map",
     "static/css/2.69121389.chunk.css": "/pauper-library-react/static/css/2.69121389.chunk.css",
     "static/js/2.6542b605.chunk.js": "/pauper-library-react/static/js/2.6542b605.chunk.js",
     "static/js/2.6542b605.chunk.js.map": "/pauper-library-react/static/js/2.6542b605.chunk.js.map",
     "index.html": "/pauper-library-react/index.html",
-    "precache-manifest.344d54ef133eb43afe48a368f59a0a6b.js": "/pauper-library-react/precache-manifest.344d54ef133eb43afe48a368f59a0a6b.js",
+    "precache-manifest.c773809230e72389879644378f0097dc.js": "/pauper-library-react/precache-manifest.c773809230e72389879644378f0097dc.js",
     "service-worker.js": "/pauper-library-react/service-worker.js",
     "static/css/2.69121389.chunk.css.map": "/pauper-library-react/static/css/2.69121389.chunk.css.map",
-    "static/css/main.0de5c018.chunk.css.map": "/pauper-library-react/static/css/main.0de5c018.chunk.css.map",
+    "static/css/main.75ae8bfb.chunk.css.map": "/pauper-library-react/static/css/main.75ae8bfb.chunk.css.map",
     "static/js/2.6542b605.chunk.js.LICENSE.txt": "/pauper-library-react/static/js/2.6542b605.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/pauper-library-react/static/media/mplantin.daf8b76b.eot",
-    "static/media/logo-transparent.svg": "/pauper-library-react/static/media/logo-transparent.7dc23d48.svg",
-    "static/media/mana.css": "/pauper-library-react/static/media/mana.6f03111d.eot"
+    "static/media/App.css": "/pauper-library-react/static/media/mplantin.f32a0c6b.svg",
+    "static/media/logo-transparent.svg": "/pauper-library-react/static/media/logo-transparent.1915b88a.svg",
+    "static/media/mana.css": "/pauper-library-react/static/media/mana.ccad9cff.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.31d1ce63.js",
     "static/css/2.69121389.chunk.css",
     "static/js/2.6542b605.chunk.js",
-    "static/css/main.0de5c018.chunk.css",
-    "static/js/main.5749bb69.chunk.js"
+    "static/css/main.75ae8bfb.chunk.css",
+    "static/js/main.9bfe17e3.chunk.js"
   ]
 }
