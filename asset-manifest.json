@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/pauper-library-react/static/css/main.75ae8bfb.chunk.css",
-    "main.js": "/pauper-library-react/static/js/main.9bfe17e3.chunk.js",
-    "main.js.map": "/pauper-library-react/static/js/main.9bfe17e3.chunk.js.map",
+    "main.js": "/pauper-library-react/static/js/main.e477cd9a.chunk.js",
+    "main.js.map": "/pauper-library-react/static/js/main.e477cd9a.chunk.js.map",
     "runtime-main.js": "/pauper-library-react/static/js/runtime-main.31d1ce63.js",
     "runtime-main.js.map": "/pauper-library-react/static/js/runtime-main.31d1ce63.js.map",
     "static/css/2.69121389.chunk.css": "/pauper-library-react/static/css/2.69121389.chunk.css",
     "static/js/2.6542b605.chunk.js": "/pauper-library-react/static/js/2.6542b605.chunk.js",
     "static/js/2.6542b605.chunk.js.map": "/pauper-library-react/static/js/2.6542b605.chunk.js.map",
     "index.html": "/pauper-library-react/index.html",
-    "precache-manifest.c773809230e72389879644378f0097dc.js": "/pauper-library-react/precache-manifest.c773809230e72389879644378f0097dc.js",
+    "precache-manifest.6b39d230d5d908bb2887744422c2d6ca.js": "/pauper-library-react/precache-manifest.6b39d230d5d908bb2887744422c2d6ca.js",
     "service-worker.js": "/pauper-library-react/service-worker.js",
     "static/css/2.69121389.chunk.css.map": "/pauper-library-react/static/css/2.69121389.chunk.css.map",
     "static/css/main.75ae8bfb.chunk.css.map": "/pauper-library-react/static/css/main.75ae8bfb.chunk.css.map",
@@ -23,6 +23,6 @@
     "static/css/2.69121389.chunk.css",
     "static/js/2.6542b605.chunk.js",
     "static/css/main.75ae8bfb.chunk.css",
-    "static/js/main.9bfe17e3.chunk.js"
+    "static/js/main.e477cd9a.chunk.js"
   ]
 }
